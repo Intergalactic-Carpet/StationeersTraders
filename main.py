@@ -5,10 +5,9 @@ with open(r"C:\Program Files (x86)\Steam\steamapps\common\Stationeers\rocketstat
     data = file.read()
 
 
-def crc32_hash(text_):
-    text_bytes = text_.encode('utf-8')
-    crc32_value = crc32(text_bytes)
-    return crc32_value & 0xFFFFFFFF
+def crc(s):
+    hash = crc32(bytes(s, "UTF-8"))
+    return (hash ^ 0x80000000) - 0x80000000
 
 
 def print_rgb(text_, r, g, b):
@@ -41,12 +40,12 @@ traders = xml_dict['GameData']['Trader']
 
 for trader in traders:
     print()
-    print(f'{trader["@Id"]}: #{crc32_hash(trader["@Id"])}')
+    print(f'{trader["@Id"]}: {crc(trader["@Id"])}')
 
     print(f"{' ' * 2}Companies:")
     if type(trader['Name']) is list:
         for company in trader['Name']:
-            print(f"{' ' * 4}{company['@Value']}: #{crc32_hash(company['@Value'])}")
+            print(f"{' ' * 4}{company['@Value']}")
     else:
         print(f"{' ' * 4}{trader['Name']['@Value']}")
 
