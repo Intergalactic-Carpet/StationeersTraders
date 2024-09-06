@@ -1,20 +1,27 @@
-import xmltodict
-
+from xmltodict import parse
+from zlib import crc32
 
 with open(r"C:\Program Files (x86)\Steam\steamapps\common\Stationeers\rocketstation_Data\StreamingAssets\Data\tradeables.xml", 'r') as file:
     data = file.read()
 
-xml_dict = xmltodict.parse(data)
+
+def crc32_hash(text_):
+    text_bytes = text_.encode('utf-8')
+    crc32_value = crc32(text_bytes)
+    return crc32_value & 0xFFFFFFFF
+
+
+xml_dict = parse(data)
 traders = xml_dict['GameData']['Trader']
 
 for trader in traders:
     print()
-    print(trader["@Id"])
+    print(f'{trader["@Id"]}: #{crc32_hash(trader["@Id"])}')
 
     print(f"{' ' * 2}Companies:")
     if type(trader['Name']) is list:
         for company in trader['Name']:
-            print(f"{' ' * 4}{company['@Value']}")
+            print(f"{' ' * 4}{company['@Value']}: #{crc32_hash(company['@Value'])}")
     else:
         print(f"{' ' * 4}{trader['Name']['@Value']}")
 

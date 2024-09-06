@@ -1,17 +1,15 @@
-Traders:
-
-OreTrader
+OreTrader #2920392945
   Companies:
-    More Ore Less
-    Asteroid Assayers
-    Cosmic Crush
-    Galactic Gravels
-    Nebula Nuggets
-    Orbit Ore Oasis
-    Stellar Stone Supply
-    Interstellar Excavators
-    Void Vein Vendors
-    Planetary Pebbles
+    More Ore Less: #4228949720
+    Asteroid Assayers: #227034800
+    Cosmic Crush: #4129575501
+    Galactic Gravels: #1928454764
+    Nebula Nuggets: #1956105884
+    Orbit Ore Oasis: #3683815954
+    Stellar Stone Supply: #1583550477
+    Interstellar Excavators: #1452625151
+    Void Vein Vendors: #774948725
+    Planetary Pebbles: #3395432001
   Buying:
     HardsuitPackage
     ShipOxygen
@@ -48,19 +46,19 @@ OreTrader
     Cardboard Box/Package consisting of: 'ItemReagentMix, ItemReagentMix, ItemReagentMix, ItemReagentMix, ItemReagentMix'
     Cardboard Box/Package consisting of: 'ItemReagentMix, ItemReagentMix, ItemReagentMix'
 
-AlloyTrader
+AlloyTrader #54412100
   Companies:
-    All Alloys
-    Metal Mavens
-    AstroAlloy Emporium
-    Cosmic Forge
-    Galactic Metallurgy
-    OrbitOre Outfitters
-    Stellar Smelter
-    Interstellar Ingots
-    Nebula Nucleus
-    Space Alloy Specialists
-    Star Smelter
+    All Alloys: #4245724970
+    Metal Mavens: #762814733
+    AstroAlloy Emporium: #1757481782
+    Cosmic Forge: #3387420434
+    Galactic Metallurgy: #128654444
+    OrbitOre Outfitters: #1679591543
+    Stellar Smelter: #3048475604
+    Interstellar Ingots: #2212281355
+    Nebula Nucleus: #1326308892
+    Space Alloy Specialists: #1871964765
+    Star Smelter: #348232191
   Buying:
     PackageMuffins
     ShipRepairPackage
@@ -92,19 +90,19 @@ AlloyTrader
     Inconel, Quantity: 100-100 (Bulk), Range: Medium
     Stellite, Quantity: 100-100 (Bulk), Range: Medium
 
-FoodTrader
+FoodTrader #4212002339
   Companies:
-    Starlight Suppers
-    Galactic Groceries
-    Orbiting Organics
-    Cosmic Cuisine
-    Asteroid Eats
-    Nebula Nibbles
-    Stellar Snacks
-    Interstellar Ingredients
-    Space Spices
-    Void Vegetables
-    Planetary Produce
+    Starlight Suppers: #2760073075
+    Galactic Groceries: #3040909034
+    Orbiting Organics: #2680868291
+    Cosmic Cuisine: #4263122617
+    Asteroid Eats: #3105494203
+    Nebula Nibbles: #2746575777
+    Stellar Snacks: #2445182108
+    Interstellar Ingredients: #308533506
+    Space Spices: #1822339342
+    Void Vegetables: #294411112
+    Planetary Produce: #3090353447
   Buying:
     HardsuitPackage
     ShipOxygen
@@ -144,20 +142,20 @@ FoodTrader
     ItemPumpkinSoup, Quantity: 1-5 (Bulk)
     ItemTomatoSoup, Quantity: 1-5 (Bulk)
 
-HydroponicsTrader
+HydroponicsTrader #3217045229
   Companies:
-    Green Futures
-    AstroAgronomics
-    Stellar Sprouts
-    HydroHarvest Haven
-    Orbiting Orchards
-    Galactic Growers
-    CosmoCrop Connect
-    Space Sprout Suppliers
-    Nebula Nurturers
-    Star Seedlings
-    EcoSphere Essentials
-    Interstellar Irrigation
+    Green Futures: #3591752446
+    AstroAgronomics: #3107339612
+    Stellar Sprouts: #4019554140
+    HydroHarvest Haven: #2097369350
+    Orbiting Orchards: #236595108
+    Galactic Growers: #2705065143
+    CosmoCrop Connect: #2609449485
+    Space Sprout Suppliers: #3319686861
+    Nebula Nurturers: #3648037883
+    Star Seedlings: #2287119741
+    EcoSphere Essentials: #470894926
+    Interstellar Irrigation: #169145460
   Buying:
     HardsuitPackage
     ShipOxygen
@@ -203,18 +201,18 @@ HydroponicsTrader
     Fast Growing Potato, Range: Far
     ItemFertilizedEgg, Range: Far
 
-GasTrader
+GasTrader #3824391637
   Companies:
-    GasForLess
-    AstroAether
-    Cosmic Clouds
-    Nebula Nectars
-    Orbiting Oxygens
-    Galactic Gases
-    Stellar Steam
-    Interstellar Inhalants
-    Void Vapors
-    Space Gas Station
+    GasForLess: #4185972133
+    AstroAether: #3459609141
+    Cosmic Clouds: #1540979666
+    Nebula Nectars: #2436799980
+    Orbiting Oxygens: #2143300104
+    Galactic Gases: #2434398074
+    Stellar Steam: #914006923
+    Interstellar Inhalants: #2463457707
+    Void Vapors: #847838000
+    Space Gas Station: #863405010
   Buying:
     HardsuitPackage
     ShipOxygen
@@ -252,7 +250,7 @@ GasTrader
     Nitrogen Canister, Quantity: 5-5
     ItemWaterBottle, Quantity: 5-5
 
-Construction Trader
+Construction Trader #175935584
   Companies:
     Build INC
   Buying:
@@ -286,19 +284,19 @@ Construction Trader
     ItemKitPipe, Quantity: 200-200 (Bulk)
     ItemCableCoilHeavy, Quantity: 200-200 (Bulk), Range: Medium
 
-LiquidTrader
+LiquidTrader #135244511
   Companies:
-    Payless Liquids
-    Frosty Barrels
-    Cosmic Concoctions
-    Galactic Gush
-    Nebula Nectars
-    Orbital Oceans
-    Stellar Streams
-    Interstellar Icicles
-    Void Vessels
-    Space Springs
-    Star Sippers
+    Payless Liquids: #4020035852
+    Frosty Barrels: #3388643087
+    Cosmic Concoctions: #787653408
+    Galactic Gush: #393210378
+    Nebula Nectars: #2436799980
+    Orbital Oceans: #1485758693
+    Stellar Streams: #2610333594
+    Interstellar Icicles: #3414859559
+    Void Vessels: #791157974
+    Space Springs: #2796290814
+    Star Sippers: #1392465531
   Buying:
     HardsuitPackage
     ShipOxygen
@@ -324,17 +322,17 @@ LiquidTrader
     Liquid Volatiles Canister, Quantity: 1-5
     EmergencyWater
 
-HardwareTrader
+HardwareTrader #1325142661
   Companies:
-    Cosmic Tools & More
-    Galactic Gearworks
-    Stellar Supplies
-    OrbitOps Hardware
-    Interstellar Implements
-    Void Ventures
-    Asteroid Artisans
-    Space Spanners
-    Meteor Mechanics
+    Cosmic Tools & More: #3302091818
+    Galactic Gearworks: #1831349764
+    Stellar Supplies: #2701874253
+    OrbitOps Hardware: #4177801594
+    Interstellar Implements: #3331497016
+    Void Ventures: #599798161
+    Asteroid Artisans: #139010968
+    Space Spanners: #1817244952
+    Meteor Mechanics: #3215125846
   Buying:
     HardsuitPackage
     ShipOxygen
@@ -367,15 +365,15 @@ HardwareTrader
     ItemKitPipe, Quantity: 10-60 (Bulk)
     ItemCableCoilHeavy, Quantity: 10-30 (Bulk), Range: Medium
 
-ConsumablesTrader
+ConsumablesTrader #2644591171
   Companies:
-    AstroMart
-    Cosmo's Convenience
-    StarStop
-    Nebula Necessities
-    Interstellar Essentials
-    Void Vending
-    Meteor Munchies
+    AstroMart: #580559441
+    Cosmo's Convenience: #1357167845
+    StarStop: #3728135856
+    Nebula Necessities: #1567238724
+    Interstellar Essentials: #1730003593
+    Void Vending: #1533046616
+    Meteor Munchies: #406030336
   Buying:
     HardsuitPackage
     ShipOxygen
@@ -402,16 +400,16 @@ ConsumablesTrader
     Heal Pill, Quantity: 1-3
     Sanitizer, Quantity: 1-3
 
-ApplianceTrader
+ApplianceTrader #2704249283
   Companies:
-    Galactic Gadgets
-    Orbitron Appliances
-    Stellar Systems Store
-    Space Savvy Solutions
-    Interstellar Innovations
-    Void Visions
-    Asteroid Appliances
-    Meteor Mechanics
+    Galactic Gadgets: #1441641866
+    Orbitron Appliances: #407350615
+    Stellar Systems Store: #1378742721
+    Space Savvy Solutions: #2424366440
+    Interstellar Innovations: #1020010532
+    Void Visions: #1492093954
+    Asteroid Appliances: #3444531172
+    Meteor Mechanics: #3215125846
   Buying:
     HardsuitPackage
     ShipOxygen
