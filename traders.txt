@@ -1,0 +1,441 @@
+Traders:
+
+OreTrader
+  Companies:
+    More Ore Less
+    Asteroid Assayers
+    Cosmic Crush
+    Galactic Gravels
+    Nebula Nuggets
+    Orbit Ore Oasis
+    Stellar Stone Supply
+    Interstellar Excavators
+    Void Vein Vendors
+    Planetary Pebbles
+  Buying:
+    HardsuitPackage
+    ShipOxygen
+    ShipWater
+    ShipFuel
+    ShipFoodPackage
+    ShipConsumablesPackage
+    ShipRepairPackage
+    Cake
+    BirthdayCake
+    BoxOfChocolates
+    PackageCannedEdamame
+    PackageRicePudding
+    PackageTomatoSoup
+    PackagePumpkinSoup
+    PackageCornSoup
+    PackageMuffins
+    ItemMiningDrill, Quantity: 1-3
+    ItemMiningDrillHeavy, Quantity: 1-3
+    Hard Mining Backpack
+    ItemMiningBeltMKII
+  Selling:
+    Iron Ore, Quantity: 800-800 (Bulk)
+    Copper Ore, Quantity: 400-400 (Bulk)
+    Silicon Ore, Quantity: 400-400 (Bulk)
+    Gold Ore, Quantity: 200-200 (Bulk)
+    Coal Ore, Quantity: 400-400 (Bulk)
+    Lead Ore, Quantity: 200-200 (Bulk), Range: Medium
+    Nickel Ore, Quantity: 200-200 (Bulk), Range: Medium
+    Silver Ore, Quantity: 200-200 (Bulk), Range: Medium
+    Cobalt Ore, Quantity: 200-200 (Bulk), Range: Far
+    Oxite, Quantity: 300-300 (Bulk)
+    Volatiles, Quantity: 150-150 (Bulk)
+    Cardboard Box/Package consisting of: 'ItemReagentMix, ItemReagentMix, ItemReagentMix, ItemReagentMix, ItemReagentMix'
+    Cardboard Box/Package consisting of: 'ItemReagentMix, ItemReagentMix, ItemReagentMix'
+
+AlloyTrader
+  Companies:
+    All Alloys
+    Metal Mavens
+    AstroAlloy Emporium
+    Cosmic Forge
+    Galactic Metallurgy
+    OrbitOre Outfitters
+    Stellar Smelter
+    Interstellar Ingots
+    Nebula Nucleus
+    Space Alloy Specialists
+    Star Smelter
+  Buying:
+    PackageMuffins
+    ShipRepairPackage
+    Cake
+    BirthdayCake
+    BoxOfChocolates
+    Iron Ore, Quantity: 600-600 (Bulk)
+    Copper Ore, Quantity: 600-600 (Bulk)
+    Silicon Ore, Quantity: 400-400 (Bulk)
+    Gold Ore, Quantity: 400-400 (Bulk)
+    Coal Ore, Quantity: 400-400 (Bulk)
+    Lead Ore, Quantity: 200-200 (Bulk), Range: Medium
+    Nickel Ore, Quantity: 200-200 (Bulk), Range: Medium
+    Nickel Ore, Quantity: 200-200 (Bulk), Range: Medium
+    Silver Ore, Quantity: 200-200 (Bulk), Range: Medium
+    Silver Ore, Quantity: 200-200 (Bulk), Range: Medium
+    Cobalt Ore, Quantity: 200-200 (Bulk), Range: Medium
+    Nitrous Oxide Fuel Mix, Quantity: 5-10 (Bulk), Moles: 100, Consists of: 'EqualOrGreater to 49% Volatiles, EqualOrGreater to 49% NitrousOxide', Range: Far
+    Regular Fuel Mix, Quantity: 5-10 (Bulk), Moles: 100, Consists of: 'EqualOrGreater to 32% Oxygen, EqualOrGreater to 65% Volatiles', Range: Medium
+  Selling:
+    Steel, Quantity: 200-200 (Bulk)
+    Solder, Quantity: 100-100 (Bulk)
+    Constantan, Quantity: 100-100 (Bulk)
+    Electrum, Quantity: 100-100 (Bulk)
+    Invar, Quantity: 100-100 (Bulk)
+    Astroloy, Quantity: 100-100 (Bulk), Range: Medium
+    Waspaloy, Quantity: 100-100 (Bulk), Range: Medium
+    Hastelloy, Quantity: 100-100 (Bulk), Range: Medium
+    Inconel, Quantity: 100-100 (Bulk), Range: Medium
+    Stellite, Quantity: 100-100 (Bulk), Range: Medium
+
+FoodTrader
+  Companies:
+    Starlight Suppers
+    Galactic Groceries
+    Orbiting Organics
+    Cosmic Cuisine
+    Asteroid Eats
+    Nebula Nibbles
+    Stellar Snacks
+    Interstellar Ingredients
+    Space Spices
+    Void Vegetables
+    Planetary Produce
+  Buying:
+    HardsuitPackage
+    ShipOxygen
+    ShipWater
+    ShipFuel
+    ShipConsumablesPackage
+    ShipRepairPackage
+    ItemEmptyCan, Quantity: 10-50 (Bulk)
+    CardboardBox, Quantity: 10-30
+    ItemPotato, Quantity: 10-50 (Bulk)
+    ItemWheat, Quantity: 10-30 (Bulk)
+    ItemRice, Quantity: 10-30 (Bulk)
+    ItemCorn, Quantity: 10-30 (Bulk)
+    ItemSoybean, Quantity: 10-30 (Bulk)
+    ItemMushroom, Quantity: 10-30 (Bulk)
+    ItemTomato, Quantity: 10-30 (Bulk)
+    ItemPumpkin, Quantity: 10-30 (Bulk)
+    ItemCocoaTree, Quantity: 10-30 (Bulk)
+    ItemSugarCane, Quantity: 10-30 (Bulk)
+  Selling:
+    ShipRubbish
+    ItemChocolateBar, Quantity: 1-5
+    ItemChocolateCake
+    ItemPlainCake
+    ItemMilk, Quantity: 1-5 (Bulk)
+    ItemSoyOil, Quantity: 1-2
+    ItemEggCarton, Quantity: 1-5 (Bulk)
+    ItemFlour, Quantity: 1-5
+    ItemSugar, Quantity: 1-5
+    ItemCocoaPowder, Quantity: 1-5
+    ItemCannedCondensedMilk, Quantity: 1-5 (Bulk)
+    ItemCannedEdamame, Quantity: 1-5 (Bulk)
+    ItemCannedMushroom, Quantity: 1-5 (Bulk)
+    ItemCannedPowderedEggs, Quantity: 1-2 (Bulk)
+    ItemCannedRicePudding, Quantity: 1-5 (Bulk)
+    ItemCornSoup, Quantity: 1-5 (Bulk)
+    ItemPumpkinSoup, Quantity: 1-5 (Bulk)
+    ItemTomatoSoup, Quantity: 1-5 (Bulk)
+
+HydroponicsTrader
+  Companies:
+    Green Futures
+    AstroAgronomics
+    Stellar Sprouts
+    HydroHarvest Haven
+    Orbiting Orchards
+    Galactic Growers
+    CosmoCrop Connect
+    Space Sprout Suppliers
+    Nebula Nurturers
+    Star Seedlings
+    EcoSphere Essentials
+    Interstellar Irrigation
+  Buying:
+    HardsuitPackage
+    ShipOxygen
+    ShipWater
+    ShipFuel
+    ShipFoodPackage
+    ShipConsumablesPackage
+    PackageMuffins
+    ShipRepairPackage
+    Cake
+    BirthdayCake
+    BoxOfChocolates
+    Bulk Carbon Dioxide, Quantity: 20-20 (Bulk), Moles: 100, Consists of: 'Equal to 100% CarbonDioxide'
+    Bulk Water, Quantity: 50-200 (Bulk), Moles: 100, Consists of: 'Equal to 100% Water'
+    AppliancePlantGeneticSplicer, Quantity: 1-1, Range: Far
+    AppliancePlantGeneticStabilizer, Quantity: 1-1, Range: Far
+    AppliancePlantGeneticAnalyzer, Quantity: 1-1
+    ItemPlantSampler, Quantity: 1-1
+    ItemKitPlanter, Quantity: 1-3
+    ItemHydroponicTray, Quantity: 1-10
+    ItemKitPipeLiquid, Quantity: 10-40
+    ItemKitPipeUtilityLiquid, Quantity: 1-10
+  Selling:
+    Fern Seed Pack, Quantity: 1-1
+    Mushroom Seed Pack, Quantity: 1-1
+    Corn Seed Pack, Quantity: 1-1
+    Potato Seed Pack, Quantity: 1-1
+    Pumpkin Seed Pack, Quantity: 1-1
+    Rice Seed Pack, Quantity: 1-1
+    Soybean Seed Pack, Quantity: 1-1
+    Switchgrass Seed Pack, Quantity: 1-1
+    Tomato Seed Pack, Quantity: 1-1
+    Wheat Seed Pack, Quantity: 1-1
+    Sugarcane Seed Pack, Quantity: 1-1
+    Cocoa Seed Pack, Quantity: 1-1
+    ItemPlantEndothermic_Genepool1, Quantity: 1-4, Range: Far
+    ItemPlantEndothermic_Genepool2, Quantity: 1-1, Range: Far
+    ItemPlantThermogenic_Genepool1, Quantity: 1-4, Range: Far
+    ItemPlantThermogenic_Genepool2, Quantity: 1-1, Range: Far
+    ItemFilterFern, Quantity: 2-2, Range: Far
+    ItemAlienMushroom, Quantity: 1-1, Range: Far
+    ItemTropicalPlant, Quantity: 1-5, Range: Far
+    Fast Growing Potato, Range: Far
+    ItemFertilizedEgg, Range: Far
+
+GasTrader
+  Companies:
+    GasForLess
+    AstroAether
+    Cosmic Clouds
+    Nebula Nectars
+    Orbiting Oxygens
+    Galactic Gases
+    Stellar Steam
+    Interstellar Inhalants
+    Void Vapors
+    Space Gas Station
+  Buying:
+    HardsuitPackage
+    ShipOxygen
+    ShipWater
+    ShipFoodPackage
+    ShipConsumablesPackage
+    PackageMuffins
+    ShipRepairPackage
+    Cake
+    BirthdayCake
+    BoxOfChocolates
+    ItemOxite, Quantity: 300-600 (Bulk)
+    ItemNitrice, Quantity: 300-600 (Bulk)
+    ItemIce, Quantity: 300-600 (Bulk)
+    ItemVolatiles, Quantity: 300-600 (Bulk)
+    Bulk Volatiles, Quantity: 100-200 (Bulk), Moles: 100, Consists of: 'Equal to 100% Volatiles'
+    Bulk Oxygen, Quantity: 100-200 (Bulk), Moles: 100, Consists of: 'Equal to 100% Oxygen'
+    Bulk Carbon Dioxide, Quantity: 50-100 (Bulk), Moles: 100, Consists of: 'Equal to 100% CarbonDioxide'
+    ItemGasCanisterEmpty, Quantity: 10-20
+    Cardboard Box/Package consisting of: 'ItemGasFilterNitrogenL, ItemGasFilterOxygenL, ItemGasFilterPollutantsL, ItemGasFilterVolatilesL, ItemGasFilterNitrousOxideL, ItemGasFilterCarbonDioxideL', Range: Medium
+    ItemPumpkinPie, Quantity: 1-3
+  Selling:
+    Bulk Oxygen, Quantity: 40-40 (Bulk), Consists of: '100 moles of Oxygen at 20c'
+    Bulk Nitrogen, Quantity: 40-40 (Bulk), Consists of: '100 moles of Nitrogen at 20c'
+    Bulk Carbon Dioxide, Quantity: 20-20 (Bulk), Consists of: '100 moles of CarbonDioxide at 20c'
+    Bulk Volatiles, Quantity: 20-20 (Bulk), Consists of: '100 moles of Volatiles at 20c'
+    Bulk Pollutants, Quantity: 30-40 (Bulk), Consists of: '100 moles of Pollutant at 20c'
+    Bulk Water, Quantity: 50-80 (Bulk), Consists of: '1L of Water at 20c'
+    Bulk Nitrous Oxide, Quantity: 10-40 (Bulk), Consists of: '100 moles of NitrousOxide at 20c'
+    Bulk Dirty Volatiles, Quantity: 50-100 (Bulk), Consists of: '65.0 moles of Volatiles at 500c, 30.0 moles of CarbonDioxide at 500c, 5.0 moles of Pollutant at 500c'
+    Steam, Quantity: 50-100 (Bulk), Consists of: '100 moles of Steam at 800c'
+    Oxygen Canister, Quantity: 5-5
+    Fuel Canister, Quantity: 5-5
+    Water Canister, Quantity: 1-5
+    Nitrogen Canister, Quantity: 5-5
+    ItemWaterBottle, Quantity: 5-5
+
+Construction Trader
+  Companies:
+    Build INC
+  Buying:
+    HardsuitPackage
+    ShipOxygen
+    ShipWater
+    ShipFuel
+    ShipFoodPackage
+    ShipRepairPackage
+    Cake
+    BirthdayCake
+    BoxOfChocolates
+    Steel Ingot, Quantity: 300-300 (Bulk)
+    Solder Ingot, Quantity: 300-300 (Bulk)
+    Constantan Ingot, Quantity: 300-300 (Bulk)
+    Electrum Ingot, Quantity: 300-300 (Bulk)
+    Invar Ingot, Quantity: 300-300 (Bulk)
+    Astroloy Ingot, Quantity: 300-300 (Bulk), Range: Medium
+    Waspaloy Ingot, Quantity: 300-300 (Bulk), Range: Medium
+    Hastelloy Ingot, Quantity: 300-300 (Bulk), Range: Medium
+    Inconel Ingot, Quantity: 300-300 (Bulk), Range: Medium
+    Stellite Ingot, Quantity: 300-300 (Bulk), Range: Medium
+    autolathe mod, Quantity: 1-1
+  Selling:
+    ItemSteelFrames, Quantity: 150-150 (Bulk)
+    ItemKitWall, Quantity: 100-100 (Bulk)
+    ItemSteelSheets, Quantity: 200-200 (Bulk)
+    ItemPlasticSheets, Quantity: 100-100 (Bulk)
+    ItemGlassSheets, Quantity: 50-50 (Bulk)
+    ItemCableCoil, Quantity: 200-200 (Bulk)
+    ItemKitPipe, Quantity: 200-200 (Bulk)
+    ItemCableCoilHeavy, Quantity: 200-200 (Bulk), Range: Medium
+
+LiquidTrader
+  Companies:
+    Payless Liquids
+    Frosty Barrels
+    Cosmic Concoctions
+    Galactic Gush
+    Nebula Nectars
+    Orbital Oceans
+    Stellar Streams
+    Interstellar Icicles
+    Void Vessels
+    Space Springs
+    Star Sippers
+  Buying:
+    HardsuitPackage
+    ShipOxygen
+    ShipFuel
+    ShipFoodPackage
+    ShipConsumablesPackage
+    PackageMuffins
+    ShipRepairPackage
+    Cake
+    BirthdayCake
+    BoxOfChocolates
+    ItemLiquidCanisterEmpty, Quantity: 10-20
+    Cardboard Box/Package consisting of: 'ItemGasFilterNitrogenL, ItemGasFilterOxygenL, ItemGasFilterPollutantsL, ItemGasFilterVolatilesL, ItemGasFilterNitrousOxideL, ItemGasFilterCarbonDioxideL', Range: Medium
+    ItemIce, Quantity: 300-600 (Bulk)
+  Selling:
+    Bulk Water, Quantity: 100-300 (Bulk), Consists of: '1L of Water at 20c'
+    Bulk Liquid Nitrogen, Quantity: 100-300 (Bulk), Consists of: '1L of LiquidNitrogen at -220c'
+    Bulk Liquid Oxygen, Quantity: 100-300 (Bulk), Consists of: '1L of LiquidOxygen at -200c'
+    Bulk Liquid Volatiles, Quantity: 100-300 (Bulk), Consists of: '1L of LiquidVolatiles at -180c'
+    Water Canister, Quantity: 1-5
+    Liquid Nitrogen Canister, Quantity: 1-5
+    Liquid Oxygen Canister, Quantity: 1-5
+    Liquid Volatiles Canister, Quantity: 1-5
+    EmergencyWater
+
+HardwareTrader
+  Companies:
+    Cosmic Tools & More
+    Galactic Gearworks
+    Stellar Supplies
+    OrbitOps Hardware
+    Interstellar Implements
+    Void Ventures
+    Asteroid Artisans
+    Space Spanners
+    Meteor Mechanics
+  Buying:
+    HardsuitPackage
+    ShipOxygen
+    ShipWater
+    ShipFuel
+    ShipFoodPackage
+    PackageMuffins
+    Cake
+    BirthdayCake
+    BoxOfChocolates
+  Selling:
+    Box of Spray Cans, Quantity: 1-3
+    Box of Battery Cells, Quantity: 1-1
+    Box of Battery Cells (Large), Quantity: 1-1, Range: Far
+    Angle Grinder, Quantity: 1-1
+    Drill, Quantity: 1-1
+    Labeller, Quantity: 1-1
+    Remote Detonator, Quantity: 1-1
+    Explosives, Quantity: 1-3
+    Welder, Quantity: 1-1
+    Welding Fuel, Quantity: 1-1
+    Wire Cutters, Quantity: 1-1
+    Screwdriver, Quantity: 1-1
+    Crowbar, Quantity: 1-1
+    Fire Extinguisher, Quantity: 1-1
+    ItemSteelSheets, Quantity: 20-50 (Bulk)
+    ItemPlasticSheets, Quantity: 20-50 (Bulk)
+    ItemGlassSheets, Quantity: 20-50 (Bulk)
+    ItemCableCoil, Quantity: 40-80 (Bulk)
+    ItemKitPipe, Quantity: 10-60 (Bulk)
+    ItemCableCoilHeavy, Quantity: 10-30 (Bulk), Range: Medium
+
+ConsumablesTrader
+  Companies:
+    AstroMart
+    Cosmo's Convenience
+    StarStop
+    Nebula Necessities
+    Interstellar Essentials
+    Void Vending
+    Meteor Munchies
+  Buying:
+    HardsuitPackage
+    ShipOxygen
+    ShipWater
+    ShipFuel
+    ShipRepairPackage
+  Selling:
+    ItemChocolateBar, Quantity: 1-3
+    ItemMilk, Quantity: 1-2 (Bulk)
+    ItemSoyOil, Quantity: 1-1
+    ItemEggCarton, Quantity: 1-1 (Bulk)
+    ItemFlour, Quantity: 1-1
+    ItemCocoaPowder, Quantity: 1-5
+    ItemSugar, Quantity: 1-1
+    Duct Tape, Quantity: 3-5
+    Battery Cell, Quantity: 1-5
+    Cereal Bar, Quantity: 2-6
+    Water Bottle, Quantity: 2-5
+    Gas Filter (CO2), Quantity: 5-5
+    Road Flares x 5, Quantity: 1-3
+    Box of Chemlights, Quantity: 1-1
+    Box of Spray Cans, Quantity: 1-3
+    Droid Repair Kit, Quantity: 1-3
+    Heal Pill, Quantity: 1-3
+    Sanitizer, Quantity: 1-3
+
+ApplianceTrader
+  Companies:
+    Galactic Gadgets
+    Orbitron Appliances
+    Stellar Systems Store
+    Space Savvy Solutions
+    Interstellar Innovations
+    Void Visions
+    Asteroid Appliances
+    Meteor Mechanics
+  Buying:
+    HardsuitPackage
+    ShipOxygen
+    ShipWater
+    ShipFoodPackage
+    ShipConsumablesPackage
+    PackageMuffins
+    ShipRepairPackage
+    ItemCableCoil, Quantity: 50-150
+    ItemElectronicParts, Quantity: 5-30
+    ItemIntegratedCircuit10, Quantity: 1-10
+    Gold Ingot, Quantity: 50-100 (Bulk), Range: Medium
+    Silver Ingot, Quantity: 50-100 (Bulk), Range: Medium
+    Electrum Ingot, Quantity: 100-200 (Bulk), Range: Far
+  Selling:
+    ApplianceMicrowave, Quantity: 1-1
+    ApplianceReagentProcessor, Quantity: 1-1
+    AppliancePackagingMachine, Quantity: 1-1
+    ApplianceTabletDock, Quantity: 1-1
+    ApplianceDeskLampLeft, Quantity: 1-1
+    ApplianceChemistryStation, Quantity: 1-1
+    ItemLaptop, Quantity: 1-1
+    ItemDynamicAirCon, Quantity: 1-1
+    ItemKitWeatherStation, Quantity: 1-1
+    ItemKitDynamicGenerator, Quantity: 1-1
+    ItemDynamicScrubber, Quantity: 1-1
+    Autolathe Construction Kit, Quantity: 1-1
