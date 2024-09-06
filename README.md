@@ -3,6 +3,7 @@ A full auto-generated list of all in-game traders for Stationeers.
 
 This program is not perfect, although it should function without bugs, custom items may not appear correctly as this relies on the developer's xml structure.
 
+You can find a pre-generated list in traders.txt
 # How do I run it?
 First, download a copy of main.py. 
 
