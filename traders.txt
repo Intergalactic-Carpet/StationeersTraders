@@ -1,4 +1,5 @@
-OreTrader #2920392945
+
+OreTrader: #2920392945
   Companies:
     More Ore Less: #4228949720
     Asteroid Assayers: #227034800
@@ -32,21 +33,21 @@ OreTrader #2920392945
     Hard Mining Backpack
     ItemMiningBeltMKII
   Selling:
-    Iron Ore, Quantity: 800-800 (Bulk)
-    Copper Ore, Quantity: 400-400 (Bulk)
-    Silicon Ore, Quantity: 400-400 (Bulk)
-    Gold Ore, Quantity: 200-200 (Bulk)
-    Coal Ore, Quantity: 400-400 (Bulk)
-    Lead Ore, Quantity: 200-200 (Bulk), Range: Medium
-    Nickel Ore, Quantity: 200-200 (Bulk), Range: Medium
-    Silver Ore, Quantity: 200-200 (Bulk), Range: Medium
-    Cobalt Ore, Quantity: 200-200 (Bulk), Range: Far
-    Oxite, Quantity: 300-300 (Bulk)
-    Volatiles, Quantity: 150-150 (Bulk)
+    Iron Ore, Quantity: 800 (Bulk)
+    Copper Ore, Quantity: 400 (Bulk)
+    Silicon Ore, Quantity: 400 (Bulk)
+    Gold Ore, Quantity: 200 (Bulk)
+    Coal Ore, Quantity: 400 (Bulk)
+    Lead Ore, Quantity: 200 (Bulk), Range: Medium
+    Nickel Ore, Quantity: 200 (Bulk), Range: Medium
+    Silver Ore, Quantity: 200 (Bulk), Range: Medium
+    Cobalt Ore, Quantity: 200 (Bulk), Range: Far
+    Oxite, Quantity: 300 (Bulk)
+    Volatiles, Quantity: 150 (Bulk)
     Cardboard Box/Package consisting of: 'ItemReagentMix, ItemReagentMix, ItemReagentMix, ItemReagentMix, ItemReagentMix'
     Cardboard Box/Package consisting of: 'ItemReagentMix, ItemReagentMix, ItemReagentMix'
 
-AlloyTrader #54412100
+AlloyTrader: #54412100
   Companies:
     All Alloys: #4245724970
     Metal Mavens: #762814733
@@ -65,32 +66,32 @@ AlloyTrader #54412100
     Cake
     BirthdayCake
     BoxOfChocolates
-    Iron Ore, Quantity: 600-600 (Bulk)
-    Copper Ore, Quantity: 600-600 (Bulk)
-    Silicon Ore, Quantity: 400-400 (Bulk)
-    Gold Ore, Quantity: 400-400 (Bulk)
-    Coal Ore, Quantity: 400-400 (Bulk)
-    Lead Ore, Quantity: 200-200 (Bulk), Range: Medium
-    Nickel Ore, Quantity: 200-200 (Bulk), Range: Medium
-    Nickel Ore, Quantity: 200-200 (Bulk), Range: Medium
-    Silver Ore, Quantity: 200-200 (Bulk), Range: Medium
-    Silver Ore, Quantity: 200-200 (Bulk), Range: Medium
-    Cobalt Ore, Quantity: 200-200 (Bulk), Range: Medium
-    Nitrous Oxide Fuel Mix, Quantity: 5-10 (Bulk), Moles: 100, Consists of: 'EqualOrGreater to 49% Volatiles, EqualOrGreater to 49% NitrousOxide', Range: Far
-    Regular Fuel Mix, Quantity: 5-10 (Bulk), Moles: 100, Consists of: 'EqualOrGreater to 32% Oxygen, EqualOrGreater to 65% Volatiles', Range: Medium
+    Iron Ore, Quantity: 600 (Bulk)
+    Copper Ore, Quantity: 600 (Bulk)
+    Silicon Ore, Quantity: 400 (Bulk)
+    Gold Ore, Quantity: 400 (Bulk)
+    Coal Ore, Quantity: 400 (Bulk)
+    Lead Ore, Quantity: 200 (Bulk), Range: Medium
+    Nickel Ore, Quantity: 200 (Bulk), Range: Medium
+    Nickel Ore, Quantity: 200 (Bulk), Range: Medium
+    Silver Ore, Quantity: 200 (Bulk), Range: Medium
+    Silver Ore, Quantity: 200 (Bulk), Range: Medium
+    Cobalt Ore, Quantity: 200 (Bulk), Range: Medium
+    Nitrous Oxide Fuel Mix, Quantity: 5-10 (Bulk), Moles: 100, Consists of: '>=49% Volatiles, >=49% NitrousOxide', Range: Far
+    Regular Fuel Mix, Quantity: 5-10 (Bulk), Moles: 100, Consists of: '>=32% Oxygen, >=65% Volatiles', Range: Medium
   Selling:
-    Steel, Quantity: 200-200 (Bulk)
-    Solder, Quantity: 100-100 (Bulk)
-    Constantan, Quantity: 100-100 (Bulk)
-    Electrum, Quantity: 100-100 (Bulk)
-    Invar, Quantity: 100-100 (Bulk)
-    Astroloy, Quantity: 100-100 (Bulk), Range: Medium
-    Waspaloy, Quantity: 100-100 (Bulk), Range: Medium
-    Hastelloy, Quantity: 100-100 (Bulk), Range: Medium
-    Inconel, Quantity: 100-100 (Bulk), Range: Medium
-    Stellite, Quantity: 100-100 (Bulk), Range: Medium
+    Steel, Quantity: 200 (Bulk)
+    Solder, Quantity: 100 (Bulk)
+    Constantan, Quantity: 100 (Bulk)
+    Electrum, Quantity: 100 (Bulk)
+    Invar, Quantity: 100 (Bulk)
+    Astroloy, Quantity: 100 (Bulk), Range: Medium
+    Waspaloy, Quantity: 100 (Bulk), Range: Medium
+    Hastelloy, Quantity: 100 (Bulk), Range: Medium
+    Inconel, Quantity: 100 (Bulk), Range: Medium
+    Stellite, Quantity: 100 (Bulk), Range: Medium
 
-FoodTrader #4212002339
+FoodTrader: #4212002339
   Companies:
     Starlight Suppers: #2760073075
     Galactic Groceries: #3040909034
@@ -142,7 +143,7 @@ FoodTrader #4212002339
     ItemPumpkinSoup, Quantity: 1-5 (Bulk)
     ItemTomatoSoup, Quantity: 1-5 (Bulk)
 
-HydroponicsTrader #3217045229
+HydroponicsTrader: #3217045229
   Companies:
     Green Futures: #3591752446
     AstroAgronomics: #3107339612
@@ -168,40 +169,40 @@ HydroponicsTrader #3217045229
     Cake
     BirthdayCake
     BoxOfChocolates
-    Bulk Carbon Dioxide, Quantity: 20-20 (Bulk), Moles: 100, Consists of: 'Equal to 100% CarbonDioxide'
-    Bulk Water, Quantity: 50-200 (Bulk), Moles: 100, Consists of: 'Equal to 100% Water'
-    AppliancePlantGeneticSplicer, Quantity: 1-1, Range: Far
-    AppliancePlantGeneticStabilizer, Quantity: 1-1, Range: Far
-    AppliancePlantGeneticAnalyzer, Quantity: 1-1
-    ItemPlantSampler, Quantity: 1-1
+    Bulk Carbon Dioxide, Quantity: 20 (Bulk), Moles: 100, Consists of: '100% CarbonDioxide'
+    Bulk Water, Quantity: 50-200 (Bulk), Moles: 100, Consists of: '100% Water'
+    AppliancePlantGeneticSplicer, Quantity: 1, Range: Far
+    AppliancePlantGeneticStabilizer, Quantity: 1, Range: Far
+    AppliancePlantGeneticAnalyzer, Quantity: 1
+    ItemPlantSampler, Quantity: 1
     ItemKitPlanter, Quantity: 1-3
     ItemHydroponicTray, Quantity: 1-10
     ItemKitPipeLiquid, Quantity: 10-40
     ItemKitPipeUtilityLiquid, Quantity: 1-10
   Selling:
-    Fern Seed Pack, Quantity: 1-1
-    Mushroom Seed Pack, Quantity: 1-1
-    Corn Seed Pack, Quantity: 1-1
-    Potato Seed Pack, Quantity: 1-1
-    Pumpkin Seed Pack, Quantity: 1-1
-    Rice Seed Pack, Quantity: 1-1
-    Soybean Seed Pack, Quantity: 1-1
-    Switchgrass Seed Pack, Quantity: 1-1
-    Tomato Seed Pack, Quantity: 1-1
-    Wheat Seed Pack, Quantity: 1-1
-    Sugarcane Seed Pack, Quantity: 1-1
-    Cocoa Seed Pack, Quantity: 1-1
+    Fern Seed Pack, Quantity: 1
+    Mushroom Seed Pack, Quantity: 1
+    Corn Seed Pack, Quantity: 1
+    Potato Seed Pack, Quantity: 1
+    Pumpkin Seed Pack, Quantity: 1
+    Rice Seed Pack, Quantity: 1
+    Soybean Seed Pack, Quantity: 1
+    Switchgrass Seed Pack, Quantity: 1
+    Tomato Seed Pack, Quantity: 1
+    Wheat Seed Pack, Quantity: 1
+    Sugarcane Seed Pack, Quantity: 1
+    Cocoa Seed Pack, Quantity: 1
     ItemPlantEndothermic_Genepool1, Quantity: 1-4, Range: Far
-    ItemPlantEndothermic_Genepool2, Quantity: 1-1, Range: Far
+    ItemPlantEndothermic_Genepool2, Quantity: 1, Range: Far
     ItemPlantThermogenic_Genepool1, Quantity: 1-4, Range: Far
-    ItemPlantThermogenic_Genepool2, Quantity: 1-1, Range: Far
-    ItemFilterFern, Quantity: 2-2, Range: Far
-    ItemAlienMushroom, Quantity: 1-1, Range: Far
+    ItemPlantThermogenic_Genepool2, Quantity: 1, Range: Far
+    ItemFilterFern, Quantity: 2, Range: Far
+    ItemAlienMushroom, Quantity: 1, Range: Far
     ItemTropicalPlant, Quantity: 1-5, Range: Far
     Fast Growing Potato, Range: Far
     ItemFertilizedEgg, Range: Far
 
-GasTrader #3824391637
+GasTrader: #3824391637
   Companies:
     GasForLess: #4185972133
     AstroAether: #3459609141
@@ -228,29 +229,29 @@ GasTrader #3824391637
     ItemNitrice, Quantity: 300-600 (Bulk)
     ItemIce, Quantity: 300-600 (Bulk)
     ItemVolatiles, Quantity: 300-600 (Bulk)
-    Bulk Volatiles, Quantity: 100-200 (Bulk), Moles: 100, Consists of: 'Equal to 100% Volatiles'
-    Bulk Oxygen, Quantity: 100-200 (Bulk), Moles: 100, Consists of: 'Equal to 100% Oxygen'
-    Bulk Carbon Dioxide, Quantity: 50-100 (Bulk), Moles: 100, Consists of: 'Equal to 100% CarbonDioxide'
+    Bulk Volatiles, Quantity: 100-200 (Bulk), Moles: 100, Consists of: '100% Volatiles'
+    Bulk Oxygen, Quantity: 100-200 (Bulk), Moles: 100, Consists of: '100% Oxygen'
+    Bulk Carbon Dioxide, Quantity: 50-100 (Bulk), Moles: 100, Consists of: '100% CarbonDioxide'
     ItemGasCanisterEmpty, Quantity: 10-20
     Cardboard Box/Package consisting of: 'ItemGasFilterNitrogenL, ItemGasFilterOxygenL, ItemGasFilterPollutantsL, ItemGasFilterVolatilesL, ItemGasFilterNitrousOxideL, ItemGasFilterCarbonDioxideL', Range: Medium
     ItemPumpkinPie, Quantity: 1-3
   Selling:
-    Bulk Oxygen, Quantity: 40-40 (Bulk), Consists of: '100 moles of Oxygen at 20c'
-    Bulk Nitrogen, Quantity: 40-40 (Bulk), Consists of: '100 moles of Nitrogen at 20c'
-    Bulk Carbon Dioxide, Quantity: 20-20 (Bulk), Consists of: '100 moles of CarbonDioxide at 20c'
-    Bulk Volatiles, Quantity: 20-20 (Bulk), Consists of: '100 moles of Volatiles at 20c'
+    Bulk Oxygen, Quantity: 40 (Bulk), Consists of: '100 moles of Oxygen at 20c'
+    Bulk Nitrogen, Quantity: 40 (Bulk), Consists of: '100 moles of Nitrogen at 20c'
+    Bulk Carbon Dioxide, Quantity: 20 (Bulk), Consists of: '100 moles of CarbonDioxide at 20c'
+    Bulk Volatiles, Quantity: 20 (Bulk), Consists of: '100 moles of Volatiles at 20c'
     Bulk Pollutants, Quantity: 30-40 (Bulk), Consists of: '100 moles of Pollutant at 20c'
     Bulk Water, Quantity: 50-80 (Bulk), Consists of: '1L of Water at 20c'
     Bulk Nitrous Oxide, Quantity: 10-40 (Bulk), Consists of: '100 moles of NitrousOxide at 20c'
     Bulk Dirty Volatiles, Quantity: 50-100 (Bulk), Consists of: '65.0 moles of Volatiles at 500c, 30.0 moles of CarbonDioxide at 500c, 5.0 moles of Pollutant at 500c'
     Steam, Quantity: 50-100 (Bulk), Consists of: '100 moles of Steam at 800c'
-    Oxygen Canister, Quantity: 5-5
-    Fuel Canister, Quantity: 5-5
+    Oxygen Canister, Quantity: 5
+    Fuel Canister, Quantity: 5
     Water Canister, Quantity: 1-5
-    Nitrogen Canister, Quantity: 5-5
-    ItemWaterBottle, Quantity: 5-5
+    Nitrogen Canister, Quantity: 5
+    ItemWaterBottle, Quantity: 5
 
-Construction Trader #175935584
+Construction Trader: #175935584
   Companies:
     Build INC
   Buying:
@@ -263,28 +264,28 @@ Construction Trader #175935584
     Cake
     BirthdayCake
     BoxOfChocolates
-    Steel Ingot, Quantity: 300-300 (Bulk)
-    Solder Ingot, Quantity: 300-300 (Bulk)
-    Constantan Ingot, Quantity: 300-300 (Bulk)
-    Electrum Ingot, Quantity: 300-300 (Bulk)
-    Invar Ingot, Quantity: 300-300 (Bulk)
-    Astroloy Ingot, Quantity: 300-300 (Bulk), Range: Medium
-    Waspaloy Ingot, Quantity: 300-300 (Bulk), Range: Medium
-    Hastelloy Ingot, Quantity: 300-300 (Bulk), Range: Medium
-    Inconel Ingot, Quantity: 300-300 (Bulk), Range: Medium
-    Stellite Ingot, Quantity: 300-300 (Bulk), Range: Medium
-    autolathe mod, Quantity: 1-1
+    Steel Ingot, Quantity: 300 (Bulk)
+    Solder Ingot, Quantity: 300 (Bulk)
+    Constantan Ingot, Quantity: 300 (Bulk)
+    Electrum Ingot, Quantity: 300 (Bulk)
+    Invar Ingot, Quantity: 300 (Bulk)
+    Astroloy Ingot, Quantity: 300 (Bulk), Range: Medium
+    Waspaloy Ingot, Quantity: 300 (Bulk), Range: Medium
+    Hastelloy Ingot, Quantity: 300 (Bulk), Range: Medium
+    Inconel Ingot, Quantity: 300 (Bulk), Range: Medium
+    Stellite Ingot, Quantity: 300 (Bulk), Range: Medium
+    autolathe mod, Quantity: 1
   Selling:
-    ItemSteelFrames, Quantity: 150-150 (Bulk)
-    ItemKitWall, Quantity: 100-100 (Bulk)
-    ItemSteelSheets, Quantity: 200-200 (Bulk)
-    ItemPlasticSheets, Quantity: 100-100 (Bulk)
-    ItemGlassSheets, Quantity: 50-50 (Bulk)
-    ItemCableCoil, Quantity: 200-200 (Bulk)
-    ItemKitPipe, Quantity: 200-200 (Bulk)
-    ItemCableCoilHeavy, Quantity: 200-200 (Bulk), Range: Medium
+    ItemSteelFrames, Quantity: 150 (Bulk)
+    ItemKitWall, Quantity: 100 (Bulk)
+    ItemSteelSheets, Quantity: 200 (Bulk)
+    ItemPlasticSheets, Quantity: 100 (Bulk)
+    ItemGlassSheets, Quantity: 50 (Bulk)
+    ItemCableCoil, Quantity: 200 (Bulk)
+    ItemKitPipe, Quantity: 200 (Bulk)
+    ItemCableCoilHeavy, Quantity: 200 (Bulk), Range: Medium
 
-LiquidTrader #135244511
+LiquidTrader: #135244511
   Companies:
     Payless Liquids: #4020035852
     Frosty Barrels: #3388643087
@@ -322,7 +323,7 @@ LiquidTrader #135244511
     Liquid Volatiles Canister, Quantity: 1-5
     EmergencyWater
 
-HardwareTrader #1325142661
+HardwareTrader: #1325142661
   Companies:
     Cosmic Tools & More: #3302091818
     Galactic Gearworks: #1831349764
@@ -345,19 +346,19 @@ HardwareTrader #1325142661
     BoxOfChocolates
   Selling:
     Box of Spray Cans, Quantity: 1-3
-    Box of Battery Cells, Quantity: 1-1
-    Box of Battery Cells (Large), Quantity: 1-1, Range: Far
-    Angle Grinder, Quantity: 1-1
-    Drill, Quantity: 1-1
-    Labeller, Quantity: 1-1
-    Remote Detonator, Quantity: 1-1
+    Box of Battery Cells, Quantity: 1
+    Box of Battery Cells (Large), Quantity: 1, Range: Far
+    Angle Grinder, Quantity: 1
+    Drill, Quantity: 1
+    Labeller, Quantity: 1
+    Remote Detonator, Quantity: 1
     Explosives, Quantity: 1-3
-    Welder, Quantity: 1-1
-    Welding Fuel, Quantity: 1-1
-    Wire Cutters, Quantity: 1-1
-    Screwdriver, Quantity: 1-1
-    Crowbar, Quantity: 1-1
-    Fire Extinguisher, Quantity: 1-1
+    Welder, Quantity: 1
+    Welding Fuel, Quantity: 1
+    Wire Cutters, Quantity: 1
+    Screwdriver, Quantity: 1
+    Crowbar, Quantity: 1
+    Fire Extinguisher, Quantity: 1
     ItemSteelSheets, Quantity: 20-50 (Bulk)
     ItemPlasticSheets, Quantity: 20-50 (Bulk)
     ItemGlassSheets, Quantity: 20-50 (Bulk)
@@ -365,7 +366,7 @@ HardwareTrader #1325142661
     ItemKitPipe, Quantity: 10-60 (Bulk)
     ItemCableCoilHeavy, Quantity: 10-30 (Bulk), Range: Medium
 
-ConsumablesTrader #2644591171
+ConsumablesTrader: #2644591171
   Companies:
     AstroMart: #580559441
     Cosmo's Convenience: #1357167845
@@ -383,24 +384,24 @@ ConsumablesTrader #2644591171
   Selling:
     ItemChocolateBar, Quantity: 1-3
     ItemMilk, Quantity: 1-2 (Bulk)
-    ItemSoyOil, Quantity: 1-1
-    ItemEggCarton, Quantity: 1-1 (Bulk)
-    ItemFlour, Quantity: 1-1
+    ItemSoyOil, Quantity: 1
+    ItemEggCarton, Quantity: 1 (Bulk)
+    ItemFlour, Quantity: 1
     ItemCocoaPowder, Quantity: 1-5
-    ItemSugar, Quantity: 1-1
+    ItemSugar, Quantity: 1
     Duct Tape, Quantity: 3-5
     Battery Cell, Quantity: 1-5
     Cereal Bar, Quantity: 2-6
     Water Bottle, Quantity: 2-5
-    Gas Filter (CO2), Quantity: 5-5
+    Gas Filter (CO2), Quantity: 5
     Road Flares x 5, Quantity: 1-3
-    Box of Chemlights, Quantity: 1-1
+    Box of Chemlights, Quantity: 1
     Box of Spray Cans, Quantity: 1-3
     Droid Repair Kit, Quantity: 1-3
     Heal Pill, Quantity: 1-3
     Sanitizer, Quantity: 1-3
 
-ApplianceTrader #2704249283
+ApplianceTrader: #2704249283
   Companies:
     Galactic Gadgets: #1441641866
     Orbitron Appliances: #407350615
@@ -425,15 +426,15 @@ ApplianceTrader #2704249283
     Silver Ingot, Quantity: 50-100 (Bulk), Range: Medium
     Electrum Ingot, Quantity: 100-200 (Bulk), Range: Far
   Selling:
-    ApplianceMicrowave, Quantity: 1-1
-    ApplianceReagentProcessor, Quantity: 1-1
-    AppliancePackagingMachine, Quantity: 1-1
-    ApplianceTabletDock, Quantity: 1-1
-    ApplianceDeskLampLeft, Quantity: 1-1
-    ApplianceChemistryStation, Quantity: 1-1
-    ItemLaptop, Quantity: 1-1
-    ItemDynamicAirCon, Quantity: 1-1
-    ItemKitWeatherStation, Quantity: 1-1
-    ItemKitDynamicGenerator, Quantity: 1-1
-    ItemDynamicScrubber, Quantity: 1-1
-    Autolathe Construction Kit, Quantity: 1-1
+    ApplianceMicrowave, Quantity: 1
+    ApplianceReagentProcessor, Quantity: 1
+    AppliancePackagingMachine, Quantity: 1
+    ApplianceTabletDock, Quantity: 1
+    ApplianceDeskLampLeft, Quantity: 1
+    ApplianceChemistryStation, Quantity: 1
+    ItemLaptop, Quantity: 1
+    ItemDynamicAirCon, Quantity: 1
+    ItemKitWeatherStation, Quantity: 1
+    ItemKitDynamicGenerator, Quantity: 1
+    ItemDynamicScrubber, Quantity: 1
+    Autolathe Construction Kit, Quantity: 1

@@ -11,6 +11,31 @@ def crc32_hash(text_):
     return crc32_value & 0xFFFFFFFF
 
 
+def print_rgb(text_, r, g, b):
+    color_code = f"\033[38;2;{round(r)};{round(g)};{round(b)}m"
+    print(f"{color_code}{text_}\033[0m")
+
+
+def warn(text_):
+    print_rgb(text_, 255, 255, 0)
+
+
+def get_comparison(comparison):
+    comp = {
+        'EqualOrGreater': '>=',
+        'Equal': '',
+        'Less': '<',
+        'LessThan': '<',
+        'Greater': '>',
+        'GreaterThan': '>',
+        'EqualOrLess': '<=',
+    }
+    if comparison in comp:
+        return comp[comparison]
+    warn(f"Comparison '{comparison}' unsupported")
+    return comparison + ' to '
+
+
 xml_dict = parse(data)
 traders = xml_dict['GameData']['Trader']
 
@@ -33,16 +58,19 @@ for trader in traders:
         elif 'Gas' in goods:
             text = goods["Name"]['@Value']
             if '@Min' in goods['Required'] and '@Max' in goods['Required']:
-                text = text + f", Quantity: {goods['Required']['@Min']}-{goods['Required']['@Max']}"
+                if goods['Required']['@Min'] == goods['Required']['@Max']:
+                    text = text + f", Quantity: {goods['Required']['@Min']}"
+                else:
+                    text = text + f", Quantity: {goods['Required']['@Min']}-{goods['Required']['@Max']}"
                 if '@Bulk' in goods['Required']:
                     text = text + ' (Bulk)'
             text = text + f", Moles: {goods['Moles']['@Value']}, Consists of: '"
             if type(goods['Gas']) is list:
                 for gas in goods['Gas']:
-                    text = text + f"{gas['@Compare']} to {gas['@Percent']}% {gas['@Type']}, "
+                    text = text + f"{get_comparison(gas['@Compare'])}{gas['@Percent']}% {gas['@Type']}, "
                 text = text[:-2] + "'"
             else:
-                text = text + f"{goods['Gas']['@Compare']} to {goods['Gas']['@Percent']}% {goods['Gas']['@Type']}'"
+                text = text + f"{get_comparison(goods['Gas']['@Compare'])}{goods['Gas']['@Percent']}% {goods['Gas']['@Type']}'"
             if '@Tier' in goods:
                 text = text + f", Range: {goods['@Tier']}"
         elif 'Select' in goods:
@@ -57,7 +85,10 @@ for trader in traders:
             if '@DebugID' in goods:
                 text = str(goods['@DebugID'])
             if '@Min' in goods['Required'] and '@Max' in goods['Required']:
-                text = text + f", Quantity: {goods['Required']['@Min']}-{goods['Required']['@Max']}"
+                if goods['Required']['@Min'] == goods['Required']['@Max']:
+                    text = text + f", Quantity: {goods['Required']['@Min']}"
+                else:
+                    text = text + f", Quantity: {goods['Required']['@Min']}-{goods['Required']['@Max']}"
                 if '@Bulk' in goods['Required']:
                     text = text + ' (Bulk)'
             if '@Tier' in goods:
@@ -72,7 +103,10 @@ for trader in traders:
         elif 'Gas' in goods:
             text = goods["Name"]['@Value']
             if '@Min' in goods['Stock'] and '@Max' in goods['Stock']:
-                text = text + f", Quantity: {goods['Stock']['@Min']}-{goods['Stock']['@Max']}"
+                if goods['Stock']['@Min'] == goods['Stock']['@Max']:
+                    text = text + f", Quantity: {goods['Stock']['@Min']}"
+                else:
+                    text = text + f", Quantity: {goods['Stock']['@Min']}-{goods['Stock']['@Max']}"
                 if '@Bulk' in goods['Stock']:
                     text = text + ' (Bulk)'
             text = text + f", Consists of: '"
@@ -83,7 +117,8 @@ for trader in traders:
                     elif '@Litres' in gas:
                         text = text + f"{gas['@Litres']}L of {gas['@Type']} at {gas['@Celsius']}c, "
                     else:
-                        text = text + "?, "
+                        text = text + f"{gas['@Type']} at {gas['@Celsius']}c, "
+                        warn('Unknown gas unit')
                 text = text[:-2] + "'"
             else:
                 if '@Moles' in goods['Gas']:
@@ -91,7 +126,8 @@ for trader in traders:
                 elif '@Litres' in goods['Gas']:
                     text = text + f"{goods['Gas']['@Litres']}L of {goods['Gas']['@Type']} at {goods['Gas']['@Celsius']}c'"
                 else:
-                    text = text + "?'"
+                    text = text + f"{goods['Gas']['@Type']} at {goods['Gas']['@Celsius']}c, "
+                    warn('Unknown gas unit')
             if '@Tier' in goods:
                 text = text + f", Range: {goods['@Tier']}"
         elif 'Select' in goods:
@@ -108,7 +144,10 @@ for trader in traders:
             if '@DebugId' in goods:
                 text = str(goods['@DebugId'])
             if '@Min' in goods['Stock'] and '@Max' in goods['Stock']:
-                text = text + f", Quantity: {goods['Stock']['@Min']}-{goods['Stock']['@Max']}"
+                if goods['Stock']['@Min'] == goods['Stock']['@Max']:
+                    text = text + f", Quantity: {goods['Stock']['@Min']}"
+                else:
+                    text = text + f", Quantity: {goods['Stock']['@Min']}-{goods['Stock']['@Max']}"
                 if '@Bulk' in goods['Stock']:
                     text = text + ' (Bulk)'
             if '@Tier' in goods:
