@@ -12,40 +12,40 @@ OreTrader: -1374574351
     Void Vein Vendors
     Planetary Pebbles
   Buying:
-    HardsuitPackage
-    ShipOxygen
-    ShipWater
-    ShipFuel
-    ShipFoodPackage
-    ShipConsumablesPackage
-    ShipRepairPackage
-    Cake
-    BirthdayCake
-    BoxOfChocolates
-    PackageCannedEdamame
-    PackageRicePudding
-    PackageTomatoSoup
-    PackagePumpkinSoup
-    PackageCornSoup
-    PackageMuffins
-    ItemMiningDrill, Quantity: 1-3
-    ItemMiningDrillHeavy, Quantity: 1-3
-    Hard Mining Backpack
-    ItemMiningBeltMKII
+    Hardsuit Package, Quantity: 1, Contains: 'ItemHardsuitHelmet, ItemHardSuit', $550
+    Oxygen Replenishment, Quantity: 5-20 (Bulk), 100 Moles, Consists of: '100% Oxygen', 10-30c, $7.5
+    Water Replenishment, Quantity: 3-8 (Bulk), 250 Moles, Consists of: '100% Water', 10-25c, $75.0
+    Ship Refuel, Quantity: 5-10 (Bulk), 100 Moles, Consists of: '>=32% Oxygen, >=65% Volatiles', $20.0
+    Food Package, Quantity: 1-2, Contains: 'ItemTomatoSoup, ItemCornSoup, ItemBreadLoaf, ItemBreadLoaf, ItemMuffin, ItemWaterBottle', $145
+    Consumables Package, Quantity: 1, Contains: 'ItemDuctTape, ItemDuctTape, ItemGasFilterCarbonDioxide, ItemGasFilterCarbonDioxide, ItemPlasticSheets, ItemCableCoil', $145
+    Ship Repair Package, Quantity: 1, $450
+    Cake, Quantity: 1, $250
+    BirthdayCake, Quantity: 1, Contains: 'ItemChocolateCake', $350
+    BoxOfChocolates, Quantity: 1, Contains: 'ItemChocolateBar, ItemChocolateBar, ItemChocolateBar, ItemChocolateBar, ItemChocolateBar', $300
+    PackageCannedEdamame, Quantity: 1-2, Contains: 'ItemCannedEdamame, ItemCannedEdamame, ItemCannedEdamame, ItemCannedEdamame, ItemCannedEdamame', $120
+    PackageRicePudding, Quantity: 1-2, Contains: 'ItemCannedRicePudding, ItemCannedRicePudding, ItemCannedRicePudding, ItemCannedRicePudding, ItemCannedRicePudding', $120
+    PackageTomatoSoup, Quantity: 1-2, Contains: 'ItemTomatoSoup, ItemTomatoSoup, ItemTomatoSoup, ItemTomatoSoup, ItemTomatoSoup', $120
+    PackagePumpkinSoup, Quantity: 1-2, Contains: 'ItemPumpkinSoup, ItemPumpkinSoup, ItemPumpkinSoup, ItemPumpkinSoup, ItemPumpkinSoup', $200
+    PackageCornSoup, Quantity: 1-2, Contains: 'ItemCornSoup, ItemCornSoup, ItemCornSoup, ItemCornSoup, ItemCornSoup', $120
+    PackageMuffins, Quantity: 1-1, Contains: 'ItemMuffin, ItemMuffin, ItemMuffin, ItemMuffin, ItemMuffin', $175
+    ItemMiningDrill, Quantity: 1-3, $50
+    ItemMiningDrillHeavy, Quantity: 1-3, $250
+    Hard Mining Backpack, $100
+    ItemMiningBeltMKII, $100
   Selling:
-    Iron Ore, Quantity: 800 (Bulk)
-    Copper Ore, Quantity: 400 (Bulk)
-    Silicon Ore, Quantity: 400 (Bulk)
-    Gold Ore, Quantity: 200 (Bulk)
-    Coal Ore, Quantity: 400 (Bulk)
-    Lead Ore, Quantity: 200 (Bulk), Range: Medium
-    Nickel Ore, Quantity: 200 (Bulk), Range: Medium
-    Silver Ore, Quantity: 200 (Bulk), Range: Medium
-    Cobalt Ore, Quantity: 200 (Bulk), Range: Far
-    Oxite, Quantity: 300 (Bulk)
-    Volatiles, Quantity: 150 (Bulk)
-    Cardboard Box/Package consisting of: 'ItemReagentMix, ItemReagentMix, ItemReagentMix, ItemReagentMix, ItemReagentMix'
-    Cardboard Box/Package consisting of: 'ItemReagentMix, ItemReagentMix, ItemReagentMix'
+    Iron Ore, Quantity: 800 (Bulk), $1
+    Copper Ore, Quantity: 400 (Bulk), $1.2
+    Silicon Ore, Quantity: 400 (Bulk), $1.4
+    Gold Ore, Quantity: 200 (Bulk), $1.8
+    Coal Ore, Quantity: 400 (Bulk), $1.2
+    Lead Ore, Quantity: 200 (Bulk), Range: Medium, $2.5
+    Nickel Ore, Quantity: 200 (Bulk), Range: Medium, $4
+    Silver Ore, Quantity: 200 (Bulk), Range: Medium, $3
+    Cobalt Ore, Quantity: 200 (Bulk), Range: Far, $4
+    Oxite, Quantity: 300 (Bulk), $.5
+    Volatiles, Quantity: 150 (Bulk), $.75
+    Cardboard Box/Package consisting of: 'ItemReagentMix, ItemReagentMix, ItemReagentMix, ItemReagentMix, ItemReagentMix', $.2
+    Cardboard Box/Package consisting of: 'ItemReagentMix, ItemReagentMix, ItemReagentMix', $0
 
 AlloyTrader: 54412100
   Companies:
@@ -61,35 +61,35 @@ AlloyTrader: 54412100
     Space Alloy Specialists
     Star Smelter
   Buying:
-    PackageMuffins
-    ShipRepairPackage
-    Cake
-    BirthdayCake
-    BoxOfChocolates
-    Iron Ore, Quantity: 600 (Bulk)
-    Copper Ore, Quantity: 600 (Bulk)
-    Silicon Ore, Quantity: 400 (Bulk)
-    Gold Ore, Quantity: 400 (Bulk)
-    Coal Ore, Quantity: 400 (Bulk)
-    Lead Ore, Quantity: 200 (Bulk), Range: Medium
-    Nickel Ore, Quantity: 200 (Bulk), Range: Medium
-    Nickel Ore, Quantity: 200 (Bulk), Range: Medium
-    Silver Ore, Quantity: 200 (Bulk), Range: Medium
-    Silver Ore, Quantity: 200 (Bulk), Range: Medium
-    Cobalt Ore, Quantity: 200 (Bulk), Range: Medium
-    Nitrous Oxide Fuel Mix, Quantity: 5-10 (Bulk), Moles: 100, Consists of: '>=49% Volatiles, >=49% NitrousOxide', Range: Far
-    Regular Fuel Mix, Quantity: 5-10 (Bulk), Moles: 100, Consists of: '>=32% Oxygen, >=65% Volatiles', Range: Medium
+    PackageMuffins, Quantity: 1-1, Contains: 'ItemMuffin, ItemMuffin, ItemMuffin, ItemMuffin, ItemMuffin', $175
+    Ship Repair Package, Quantity: 1, $450
+    Cake, Quantity: 1, $250
+    BirthdayCake, Quantity: 1, Contains: 'ItemChocolateCake', $350
+    BoxOfChocolates, Quantity: 1, Contains: 'ItemChocolateBar, ItemChocolateBar, ItemChocolateBar, ItemChocolateBar, ItemChocolateBar', $300
+    Iron Ore, Quantity: 600 (Bulk), $1
+    Copper Ore, Quantity: 600 (Bulk), $1.2
+    Silicon Ore, Quantity: 400 (Bulk), $1.4
+    Gold Ore, Quantity: 400 (Bulk), $1.8
+    Coal Ore, Quantity: 400 (Bulk), $1.2
+    Lead Ore, Quantity: 200 (Bulk), Range: Medium, $2.5
+    Nickel Ore, Quantity: 200 (Bulk), Range: Medium, $2
+    Nickel Ore, Quantity: 200 (Bulk), Range: Medium, $1.3
+    Silver Ore, Quantity: 200 (Bulk), Range: Medium, $3
+    Silver Ore, Quantity: 200 (Bulk), Range: Medium, $1.5
+    Cobalt Ore, Quantity: 200 (Bulk), Range: Medium, $3
+    Nitrous Oxide Fuel Mix, Quantity: 5-10 (Bulk), Moles: 100, Consists of: '>=49% Volatiles, >=49% NitrousOxide', Range: Far, $25.0
+    Regular Fuel Mix, Quantity: 5-10 (Bulk), Moles: 100, Consists of: '>=32% Oxygen, >=65% Volatiles', Range: Medium, $10.0
   Selling:
-    Steel, Quantity: 200 (Bulk)
-    Solder, Quantity: 100 (Bulk)
-    Constantan, Quantity: 100 (Bulk)
-    Electrum, Quantity: 100 (Bulk)
-    Invar, Quantity: 100 (Bulk)
-    Astroloy, Quantity: 100 (Bulk), Range: Medium
-    Waspaloy, Quantity: 100 (Bulk), Range: Medium
-    Hastelloy, Quantity: 100 (Bulk), Range: Medium
-    Inconel, Quantity: 100 (Bulk), Range: Medium
-    Stellite, Quantity: 100 (Bulk), Range: Medium
+    Steel, Quantity: 200 (Bulk), $1.5
+    Solder, Quantity: 100 (Bulk), $2.5
+    Constantan, Quantity: 100 (Bulk), $3
+    Electrum, Quantity: 100 (Bulk), $4
+    Invar, Quantity: 100 (Bulk), $5
+    Astroloy, Quantity: 100 (Bulk), Range: Medium, $11
+    Waspaloy, Quantity: 100 (Bulk), Range: Medium, $15
+    Hastelloy, Quantity: 100 (Bulk), Range: Medium, $15
+    Inconel, Quantity: 100 (Bulk), Range: Medium, $12
+    Stellite, Quantity: 100 (Bulk), Range: Medium, $12
 
 FoodTrader: -82964957
   Companies:
@@ -105,43 +105,43 @@ FoodTrader: -82964957
     Void Vegetables
     Planetary Produce
   Buying:
-    HardsuitPackage
-    ShipOxygen
-    ShipWater
-    ShipFuel
-    ShipConsumablesPackage
-    ShipRepairPackage
-    ItemEmptyCan, Quantity: 10-50 (Bulk)
-    CardboardBox, Quantity: 10-30
-    ItemPotato, Quantity: 10-50 (Bulk)
-    ItemWheat, Quantity: 10-30 (Bulk)
-    ItemRice, Quantity: 10-30 (Bulk)
-    ItemCorn, Quantity: 10-30 (Bulk)
-    ItemSoybean, Quantity: 10-30 (Bulk)
-    ItemMushroom, Quantity: 10-30 (Bulk)
-    ItemTomato, Quantity: 10-30 (Bulk)
-    ItemPumpkin, Quantity: 10-30 (Bulk)
-    ItemCocoaTree, Quantity: 10-30 (Bulk)
-    ItemSugarCane, Quantity: 10-30 (Bulk)
+    Hardsuit Package, Quantity: 1, Contains: 'ItemHardsuitHelmet, ItemHardSuit', $550
+    Oxygen Replenishment, Quantity: 5-20 (Bulk), 100 Moles, Consists of: '100% Oxygen', 10-30c, $7.5
+    Water Replenishment, Quantity: 3-8 (Bulk), 250 Moles, Consists of: '100% Water', 10-25c, $75.0
+    Ship Refuel, Quantity: 5-10 (Bulk), 100 Moles, Consists of: '>=32% Oxygen, >=65% Volatiles', $20.0
+    Consumables Package, Quantity: 1, Contains: 'ItemDuctTape, ItemDuctTape, ItemGasFilterCarbonDioxide, ItemGasFilterCarbonDioxide, ItemPlasticSheets, ItemCableCoil', $145
+    Ship Repair Package, Quantity: 1, $450
+    ItemEmptyCan, Quantity: 10-50 (Bulk), $0.6
+    CardboardBox, Quantity: 10-30, $0.3
+    ItemPotato, Quantity: 10-50 (Bulk), $3
+    ItemWheat, Quantity: 10-30 (Bulk), $3
+    ItemRice, Quantity: 10-30 (Bulk), $6
+    ItemCorn, Quantity: 10-30 (Bulk), $12
+    ItemSoybean, Quantity: 10-30 (Bulk), $6
+    ItemMushroom, Quantity: 10-30 (Bulk), $8
+    ItemTomato, Quantity: 10-30 (Bulk), $6
+    ItemPumpkin, Quantity: 10-30 (Bulk), $12
+    ItemCocoaTree, Quantity: 10-30 (Bulk), $10
+    ItemSugarCane, Quantity: 10-30 (Bulk), $6
   Selling:
     ShipRubbish
-    ItemChocolateBar, Quantity: 1-5
-    ItemChocolateCake
-    ItemPlainCake
-    ItemMilk, Quantity: 1-5 (Bulk)
-    ItemSoyOil, Quantity: 1-2
-    ItemEggCarton, Quantity: 1-5 (Bulk)
-    ItemFlour, Quantity: 1-5
-    ItemSugar, Quantity: 1-5
-    ItemCocoaPowder, Quantity: 1-5
-    ItemCannedCondensedMilk, Quantity: 1-5 (Bulk)
-    ItemCannedEdamame, Quantity: 1-5 (Bulk)
-    ItemCannedMushroom, Quantity: 1-5 (Bulk)
-    ItemCannedPowderedEggs, Quantity: 1-2 (Bulk)
-    ItemCannedRicePudding, Quantity: 1-5 (Bulk)
-    ItemCornSoup, Quantity: 1-5 (Bulk)
-    ItemPumpkinSoup, Quantity: 1-5 (Bulk)
-    ItemTomatoSoup, Quantity: 1-5 (Bulk)
+    ItemChocolateBar, Quantity: 1-5, $30
+    ItemChocolateCake, $100
+    ItemPlainCake, $100
+    ItemMilk, Quantity: 1-5 (Bulk), $20
+    ItemSoyOil, Quantity: 1-2, $25
+    ItemEggCarton, Quantity: 1-5 (Bulk), $35
+    ItemFlour, Quantity: 1-5, $40
+    ItemSugar, Quantity: 1-5, $50
+    ItemCocoaPowder, Quantity: 1-5, $75
+    ItemCannedCondensedMilk, Quantity: 1-5 (Bulk), $40
+    ItemCannedEdamame, Quantity: 1-5 (Bulk), $20
+    ItemCannedMushroom, Quantity: 1-5 (Bulk), $25
+    ItemCannedPowderedEggs, Quantity: 1-2 (Bulk), $20
+    ItemCannedRicePudding, Quantity: 1-5 (Bulk), $20
+    ItemCornSoup, Quantity: 1-5 (Bulk), $30
+    ItemPumpkinSoup, Quantity: 1-5 (Bulk), $40
+    ItemTomatoSoup, Quantity: 1-5 (Bulk), $30
 
 HydroponicsTrader: -1077922067
   Companies:
@@ -158,49 +158,49 @@ HydroponicsTrader: -1077922067
     EcoSphere Essentials
     Interstellar Irrigation
   Buying:
-    HardsuitPackage
-    ShipOxygen
-    ShipWater
-    ShipFuel
-    ShipFoodPackage
-    ShipConsumablesPackage
-    PackageMuffins
-    ShipRepairPackage
-    Cake
-    BirthdayCake
-    BoxOfChocolates
-    Bulk Carbon Dioxide, Quantity: 20 (Bulk), Moles: 100, Consists of: '100% CarbonDioxide'
-    Bulk Water, Quantity: 50-200 (Bulk), Moles: 100, Consists of: '100% Water'
-    AppliancePlantGeneticSplicer, Quantity: 1, Range: Far
-    AppliancePlantGeneticStabilizer, Quantity: 1, Range: Far
-    AppliancePlantGeneticAnalyzer, Quantity: 1
-    ItemPlantSampler, Quantity: 1
-    ItemKitPlanter, Quantity: 1-3
-    ItemHydroponicTray, Quantity: 1-10
-    ItemKitPipeLiquid, Quantity: 10-40
-    ItemKitPipeUtilityLiquid, Quantity: 1-10
+    Hardsuit Package, Quantity: 1, Contains: 'ItemHardsuitHelmet, ItemHardSuit', $550
+    Oxygen Replenishment, Quantity: 5-20 (Bulk), 100 Moles, Consists of: '100% Oxygen', 10-30c, $7.5
+    Water Replenishment, Quantity: 3-8 (Bulk), 250 Moles, Consists of: '100% Water', 10-25c, $75.0
+    Ship Refuel, Quantity: 5-10 (Bulk), 100 Moles, Consists of: '>=32% Oxygen, >=65% Volatiles', $20.0
+    Food Package, Quantity: 1-2, Contains: 'ItemTomatoSoup, ItemCornSoup, ItemBreadLoaf, ItemBreadLoaf, ItemMuffin, ItemWaterBottle', $145
+    Consumables Package, Quantity: 1, Contains: 'ItemDuctTape, ItemDuctTape, ItemGasFilterCarbonDioxide, ItemGasFilterCarbonDioxide, ItemPlasticSheets, ItemCableCoil', $145
+    PackageMuffins, Quantity: 1-1, Contains: 'ItemMuffin, ItemMuffin, ItemMuffin, ItemMuffin, ItemMuffin', $175
+    Ship Repair Package, Quantity: 1, $450
+    Cake, Quantity: 1, $250
+    BirthdayCake, Quantity: 1, Contains: 'ItemChocolateCake', $350
+    BoxOfChocolates, Quantity: 1, Contains: 'ItemChocolateBar, ItemChocolateBar, ItemChocolateBar, ItemChocolateBar, ItemChocolateBar', $300
+    Bulk Carbon Dioxide, Quantity: 20 (Bulk), Moles: 100, Consists of: '100% CarbonDioxide', $5.0
+    Bulk Water, Quantity: 50-200 (Bulk), Moles: 100, Consists of: '100% Water', $7.5
+    AppliancePlantGeneticSplicer, Quantity: 1, Range: Far, $500
+    AppliancePlantGeneticStabilizer, Quantity: 1, Range: Far, $500
+    AppliancePlantGeneticAnalyzer, Quantity: 1, $40
+    ItemPlantSampler, Quantity: 1, $50
+    ItemKitPlanter, Quantity: 1-3, $25
+    ItemHydroponicTray, Quantity: 1-10, $15
+    ItemKitPipeLiquid, Quantity: 10-40, $1.5
+    ItemKitPipeUtilityLiquid, Quantity: 1-10, $15
   Selling:
-    Fern Seed Pack, Quantity: 1
-    Mushroom Seed Pack, Quantity: 1
-    Corn Seed Pack, Quantity: 1
-    Potato Seed Pack, Quantity: 1
-    Pumpkin Seed Pack, Quantity: 1
-    Rice Seed Pack, Quantity: 1
-    Soybean Seed Pack, Quantity: 1
-    Switchgrass Seed Pack, Quantity: 1
-    Tomato Seed Pack, Quantity: 1
-    Wheat Seed Pack, Quantity: 1
-    Sugarcane Seed Pack, Quantity: 1
-    Cocoa Seed Pack, Quantity: 1
-    ItemPlantEndothermic_Genepool1, Quantity: 1-4, Range: Far
-    ItemPlantEndothermic_Genepool2, Quantity: 1, Range: Far
-    ItemPlantThermogenic_Genepool1, Quantity: 1-4, Range: Far
-    ItemPlantThermogenic_Genepool2, Quantity: 1, Range: Far
-    ItemFilterFern, Quantity: 2, Range: Far
-    ItemAlienMushroom, Quantity: 1, Range: Far
-    ItemTropicalPlant, Quantity: 1-5, Range: Far
-    Fast Growing Potato, Range: Far
-    ItemFertilizedEgg, Range: Far
+    Fern Seed Pack, Quantity: 1, $100
+    Mushroom Seed Pack, Quantity: 1, $300
+    Corn Seed Pack, Quantity: 1, $300
+    Potato Seed Pack, Quantity: 1, $50
+    Pumpkin Seed Pack, Quantity: 1, $400
+    Rice Seed Pack, Quantity: 1, $200
+    Soybean Seed Pack, Quantity: 1, $200
+    Switchgrass Seed Pack, Quantity: 1, $200
+    Tomato Seed Pack, Quantity: 1, $50
+    Wheat Seed Pack, Quantity: 1, $50
+    Sugarcane Seed Pack, Quantity: 1, $100
+    Cocoa Seed Pack, Quantity: 1, $250
+    ItemPlantEndothermic_Genepool1, Quantity: 1-4, Range: Far, $600
+    ItemPlantEndothermic_Genepool2, Quantity: 1, Range: Far, $800
+    ItemPlantThermogenic_Genepool1, Quantity: 1-4, Range: Far, $600
+    ItemPlantThermogenic_Genepool2, Quantity: 1, Range: Far, $800
+    ItemFilterFern, Quantity: 2, Range: Far, $500
+    ItemAlienMushroom, Quantity: 1, Range: Far, $1000
+    ItemTropicalPlant, Quantity: 1-5, Range: Far, $100
+    Fast Growing Potato, Range: Far, $600
+    ItemFertilizedEgg, Range: Far, $250
 
 GasTrader: -470575659
   Companies:
@@ -215,75 +215,75 @@ GasTrader: -470575659
     Void Vapors
     Space Gas Station
   Buying:
-    HardsuitPackage
-    ShipOxygen
-    ShipWater
-    ShipFoodPackage
-    ShipConsumablesPackage
-    PackageMuffins
-    ShipRepairPackage
-    Cake
-    BirthdayCake
-    BoxOfChocolates
-    ItemOxite, Quantity: 300-600 (Bulk)
-    ItemNitrice, Quantity: 300-600 (Bulk)
-    ItemIce, Quantity: 300-600 (Bulk)
-    ItemVolatiles, Quantity: 300-600 (Bulk)
-    Bulk Volatiles, Quantity: 100-200 (Bulk), Moles: 100, Consists of: '100% Volatiles'
-    Bulk Oxygen, Quantity: 100-200 (Bulk), Moles: 100, Consists of: '100% Oxygen'
-    Bulk Carbon Dioxide, Quantity: 50-100 (Bulk), Moles: 100, Consists of: '100% CarbonDioxide'
-    ItemGasCanisterEmpty, Quantity: 10-20
-    Cardboard Box/Package consisting of: 'ItemGasFilterNitrogenL, ItemGasFilterOxygenL, ItemGasFilterPollutantsL, ItemGasFilterVolatilesL, ItemGasFilterNitrousOxideL, ItemGasFilterCarbonDioxideL', Range: Medium
-    ItemPumpkinPie, Quantity: 1-3
+    Hardsuit Package, Quantity: 1, Contains: 'ItemHardsuitHelmet, ItemHardSuit', $550
+    Oxygen Replenishment, Quantity: 5-20 (Bulk), 100 Moles, Consists of: '100% Oxygen', 10-30c, $7.5
+    Water Replenishment, Quantity: 3-8 (Bulk), 250 Moles, Consists of: '100% Water', 10-25c, $75.0
+    Food Package, Quantity: 1-2, Contains: 'ItemTomatoSoup, ItemCornSoup, ItemBreadLoaf, ItemBreadLoaf, ItemMuffin, ItemWaterBottle', $145
+    Consumables Package, Quantity: 1, Contains: 'ItemDuctTape, ItemDuctTape, ItemGasFilterCarbonDioxide, ItemGasFilterCarbonDioxide, ItemPlasticSheets, ItemCableCoil', $145
+    PackageMuffins, Quantity: 1-1, Contains: 'ItemMuffin, ItemMuffin, ItemMuffin, ItemMuffin, ItemMuffin', $175
+    Ship Repair Package, Quantity: 1, $450
+    Cake, Quantity: 1, $250
+    BirthdayCake, Quantity: 1, Contains: 'ItemChocolateCake', $350
+    BoxOfChocolates, Quantity: 1, Contains: 'ItemChocolateBar, ItemChocolateBar, ItemChocolateBar, ItemChocolateBar, ItemChocolateBar', $300
+    ItemOxite, Quantity: 300-600 (Bulk), $.5
+    ItemNitrice, Quantity: 300-600 (Bulk), $1
+    ItemIce, Quantity: 300-600 (Bulk), $1.5
+    ItemVolatiles, Quantity: 300-600 (Bulk), $.8
+    Bulk Volatiles, Quantity: 100-200 (Bulk), Moles: 100, Consists of: '100% Volatiles', $5.0
+    Bulk Oxygen, Quantity: 100-200 (Bulk), Moles: 100, Consists of: '100% Oxygen', $1.0
+    Bulk Carbon Dioxide, Quantity: 50-100 (Bulk), Moles: 100, Consists of: '100% CarbonDioxide', $7.0
+    ItemGasCanisterEmpty, Quantity: 10-20, $7.5
+    Cardboard Box/Package consisting of: 'ItemGasFilterNitrogenL, ItemGasFilterOxygenL, ItemGasFilterPollutantsL, ItemGasFilterVolatilesL, ItemGasFilterNitrousOxideL, ItemGasFilterCarbonDioxideL', Range: Medium, $30
+    ItemPumpkinPie, Quantity: 1-3, $200
   Selling:
-    Bulk Oxygen, Quantity: 40 (Bulk), Consists of: '100 moles of Oxygen at 20c'
-    Bulk Nitrogen, Quantity: 40 (Bulk), Consists of: '100 moles of Nitrogen at 20c'
-    Bulk Carbon Dioxide, Quantity: 20 (Bulk), Consists of: '100 moles of CarbonDioxide at 20c'
-    Bulk Volatiles, Quantity: 20 (Bulk), Consists of: '100 moles of Volatiles at 20c'
-    Bulk Pollutants, Quantity: 30-40 (Bulk), Consists of: '100 moles of Pollutant at 20c'
-    Bulk Water, Quantity: 50-80 (Bulk), Consists of: '1L of Water at 20c'
-    Bulk Nitrous Oxide, Quantity: 10-40 (Bulk), Consists of: '100 moles of NitrousOxide at 20c'
-    Bulk Dirty Volatiles, Quantity: 50-100 (Bulk), Consists of: '65.0 moles of Volatiles at 500c, 30.0 moles of CarbonDioxide at 500c, 5.0 moles of Pollutant at 500c'
-    Steam, Quantity: 50-100 (Bulk), Consists of: '100 moles of Steam at 800c'
-    Oxygen Canister, Quantity: 5
-    Fuel Canister, Quantity: 5
-    Water Canister, Quantity: 1-5
-    Nitrogen Canister, Quantity: 5
-    ItemWaterBottle, Quantity: 5
+    Bulk Oxygen, Quantity: 40 (Bulk), Consists of: '100 moles of Oxygen at 20c', $5.00
+    Bulk Nitrogen, Quantity: 40 (Bulk), Consists of: '100 moles of Nitrogen at 20c', $3.00
+    Bulk Carbon Dioxide, Quantity: 20 (Bulk), Consists of: '100 moles of CarbonDioxide at 20c', $7.5
+    Bulk Volatiles, Quantity: 20 (Bulk), Consists of: '100 moles of Volatiles at 20c', $7.5
+    Bulk Pollutants, Quantity: 30-40 (Bulk), Consists of: '100 moles of Pollutant at 20c', $-1.00
+    Bulk Water, Quantity: 50-80 (Bulk), Consists of: '1L of Water at 20c', $18
+    Bulk Nitrous Oxide, Quantity: 10-40 (Bulk), Consists of: '100 moles of NitrousOxide at 20c', $50
+    Bulk Dirty Volatiles, Quantity: 50-100 (Bulk), Consists of: '65.0 moles of Volatiles at 500c, 30.0 moles of CarbonDioxide at 500c, 5.0 moles of Pollutant at 500c', $2.0
+    Steam, Quantity: 50-100 (Bulk), Consists of: '100 moles of Steam at 800c', $10
+    Oxygen Canister, Quantity: 5, $10
+    Fuel Canister, Quantity: 5, $20
+    Water Canister, Quantity: 1-5, $250
+    Nitrogen Canister, Quantity: 5, $10
+    ItemWaterBottle, Quantity: 5, $25
 
 Construction Trader: 175935584
   Companies:
     Build INC
   Buying:
-    HardsuitPackage
-    ShipOxygen
-    ShipWater
-    ShipFuel
-    ShipFoodPackage
-    ShipRepairPackage
-    Cake
-    BirthdayCake
-    BoxOfChocolates
-    Steel Ingot, Quantity: 300 (Bulk)
-    Solder Ingot, Quantity: 300 (Bulk)
-    Constantan Ingot, Quantity: 300 (Bulk)
-    Electrum Ingot, Quantity: 300 (Bulk)
-    Invar Ingot, Quantity: 300 (Bulk)
-    Astroloy Ingot, Quantity: 300 (Bulk), Range: Medium
-    Waspaloy Ingot, Quantity: 300 (Bulk), Range: Medium
-    Hastelloy Ingot, Quantity: 300 (Bulk), Range: Medium
-    Inconel Ingot, Quantity: 300 (Bulk), Range: Medium
-    Stellite Ingot, Quantity: 300 (Bulk), Range: Medium
-    autolathe mod, Quantity: 1
+    Hardsuit Package, Quantity: 1, Contains: 'ItemHardsuitHelmet, ItemHardSuit', $550
+    Oxygen Replenishment, Quantity: 5-20 (Bulk), 100 Moles, Consists of: '100% Oxygen', 10-30c, $7.5
+    Water Replenishment, Quantity: 3-8 (Bulk), 250 Moles, Consists of: '100% Water', 10-25c, $75.0
+    Ship Refuel, Quantity: 5-10 (Bulk), 100 Moles, Consists of: '>=32% Oxygen, >=65% Volatiles', $20.0
+    Food Package, Quantity: 1-2, Contains: 'ItemTomatoSoup, ItemCornSoup, ItemBreadLoaf, ItemBreadLoaf, ItemMuffin, ItemWaterBottle', $145
+    Ship Repair Package, Quantity: 1, $450
+    Cake, Quantity: 1, $250
+    BirthdayCake, Quantity: 1, Contains: 'ItemChocolateCake', $350
+    BoxOfChocolates, Quantity: 1, Contains: 'ItemChocolateBar, ItemChocolateBar, ItemChocolateBar, ItemChocolateBar, ItemChocolateBar', $300
+    Steel Ingot, Quantity: 300 (Bulk), $1.25
+    Solder Ingot, Quantity: 300 (Bulk), $2
+    Constantan Ingot, Quantity: 300 (Bulk), $2.5
+    Electrum Ingot, Quantity: 300 (Bulk), $3
+    Invar Ingot, Quantity: 300 (Bulk), $3
+    Astroloy Ingot, Quantity: 300 (Bulk), Range: Medium, $11
+    Waspaloy Ingot, Quantity: 300 (Bulk), Range: Medium, $14
+    Hastelloy Ingot, Quantity: 300 (Bulk), Range: Medium, $15
+    Inconel Ingot, Quantity: 300 (Bulk), Range: Medium, $12
+    Stellite Ingot, Quantity: 300 (Bulk), Range: Medium, $12
+    autolathe mod, Quantity: 1, $200
   Selling:
-    ItemSteelFrames, Quantity: 150 (Bulk)
-    ItemKitWall, Quantity: 100 (Bulk)
-    ItemSteelSheets, Quantity: 200 (Bulk)
-    ItemPlasticSheets, Quantity: 100 (Bulk)
-    ItemGlassSheets, Quantity: 50 (Bulk)
-    ItemCableCoil, Quantity: 200 (Bulk)
-    ItemKitPipe, Quantity: 200 (Bulk)
-    ItemCableCoilHeavy, Quantity: 200 (Bulk), Range: Medium
+    ItemSteelFrames, Quantity: 150 (Bulk), $3
+    ItemKitWall, Quantity: 100 (Bulk), $1.5
+    ItemSteelSheets, Quantity: 200 (Bulk), $.75
+    ItemPlasticSheets, Quantity: 100 (Bulk), $.75
+    ItemGlassSheets, Quantity: 50 (Bulk), $3
+    ItemCableCoil, Quantity: 200 (Bulk), $.75
+    ItemKitPipe, Quantity: 200 (Bulk), $.5
+    ItemCableCoilHeavy, Quantity: 200 (Bulk), Range: Medium, $1.5
 
 LiquidTrader: 135244511
   Companies:
@@ -299,28 +299,28 @@ LiquidTrader: 135244511
     Space Springs
     Star Sippers
   Buying:
-    HardsuitPackage
-    ShipOxygen
-    ShipFuel
-    ShipFoodPackage
-    ShipConsumablesPackage
-    PackageMuffins
-    ShipRepairPackage
-    Cake
-    BirthdayCake
-    BoxOfChocolates
-    ItemLiquidCanisterEmpty, Quantity: 10-20
-    Cardboard Box/Package consisting of: 'ItemGasFilterNitrogenL, ItemGasFilterOxygenL, ItemGasFilterPollutantsL, ItemGasFilterVolatilesL, ItemGasFilterNitrousOxideL, ItemGasFilterCarbonDioxideL', Range: Medium
-    ItemIce, Quantity: 300-600 (Bulk)
+    Hardsuit Package, Quantity: 1, Contains: 'ItemHardsuitHelmet, ItemHardSuit', $550
+    Oxygen Replenishment, Quantity: 5-20 (Bulk), 100 Moles, Consists of: '100% Oxygen', 10-30c, $7.5
+    Ship Refuel, Quantity: 5-10 (Bulk), 100 Moles, Consists of: '>=32% Oxygen, >=65% Volatiles', $20.0
+    Food Package, Quantity: 1-2, Contains: 'ItemTomatoSoup, ItemCornSoup, ItemBreadLoaf, ItemBreadLoaf, ItemMuffin, ItemWaterBottle', $145
+    Consumables Package, Quantity: 1, Contains: 'ItemDuctTape, ItemDuctTape, ItemGasFilterCarbonDioxide, ItemGasFilterCarbonDioxide, ItemPlasticSheets, ItemCableCoil', $145
+    PackageMuffins, Quantity: 1-1, Contains: 'ItemMuffin, ItemMuffin, ItemMuffin, ItemMuffin, ItemMuffin', $175
+    Ship Repair Package, Quantity: 1, $450
+    Cake, Quantity: 1, $250
+    BirthdayCake, Quantity: 1, Contains: 'ItemChocolateCake', $350
+    BoxOfChocolates, Quantity: 1, Contains: 'ItemChocolateBar, ItemChocolateBar, ItemChocolateBar, ItemChocolateBar, ItemChocolateBar', $300
+    ItemLiquidCanisterEmpty, Quantity: 10-20, $7.5
+    Cardboard Box/Package consisting of: 'ItemGasFilterNitrogenL, ItemGasFilterOxygenL, ItemGasFilterPollutantsL, ItemGasFilterVolatilesL, ItemGasFilterNitrousOxideL, ItemGasFilterCarbonDioxideL', Range: Medium, $30
+    ItemIce, Quantity: 300-600 (Bulk), $1.5
   Selling:
-    Bulk Water, Quantity: 100-300 (Bulk), Consists of: '1L of Water at 20c'
-    Bulk Liquid Nitrogen, Quantity: 100-300 (Bulk), Consists of: '1L of LiquidNitrogen at -220c'
-    Bulk Liquid Oxygen, Quantity: 100-300 (Bulk), Consists of: '1L of LiquidOxygen at -200c'
-    Bulk Liquid Volatiles, Quantity: 100-300 (Bulk), Consists of: '1L of LiquidVolatiles at -180c'
-    Water Canister, Quantity: 1-5
-    Liquid Nitrogen Canister, Quantity: 1-5
-    Liquid Oxygen Canister, Quantity: 1-5
-    Liquid Volatiles Canister, Quantity: 1-5
+    Bulk Water, Quantity: 100-300 (Bulk), Consists of: '1L of Water at 20c', $12
+    Bulk Liquid Nitrogen, Quantity: 100-300 (Bulk), Consists of: '1L of LiquidNitrogen at -220c', $5.75
+    Bulk Liquid Oxygen, Quantity: 100-300 (Bulk), Consists of: '1L of LiquidOxygen at -200c', $7
+    Bulk Liquid Volatiles, Quantity: 100-300 (Bulk), Consists of: '1L of LiquidVolatiles at -180c', $15
+    Water Canister, Quantity: 1-5, $200
+    Liquid Nitrogen Canister, Quantity: 1-5, $100
+    Liquid Oxygen Canister, Quantity: 1-5, $135
+    Liquid Volatiles Canister, Quantity: 1-5, $95
     EmergencyWater
 
 HardwareTrader: 1325142661
@@ -335,36 +335,36 @@ HardwareTrader: 1325142661
     Space Spanners
     Meteor Mechanics
   Buying:
-    HardsuitPackage
-    ShipOxygen
-    ShipWater
-    ShipFuel
-    ShipFoodPackage
-    PackageMuffins
-    Cake
-    BirthdayCake
-    BoxOfChocolates
+    Hardsuit Package, Quantity: 1, Contains: 'ItemHardsuitHelmet, ItemHardSuit', $550
+    Oxygen Replenishment, Quantity: 5-20 (Bulk), 100 Moles, Consists of: '100% Oxygen', 10-30c, $7.5
+    Water Replenishment, Quantity: 3-8 (Bulk), 250 Moles, Consists of: '100% Water', 10-25c, $75.0
+    Ship Refuel, Quantity: 5-10 (Bulk), 100 Moles, Consists of: '>=32% Oxygen, >=65% Volatiles', $20.0
+    Food Package, Quantity: 1-2, Contains: 'ItemTomatoSoup, ItemCornSoup, ItemBreadLoaf, ItemBreadLoaf, ItemMuffin, ItemWaterBottle', $145
+    PackageMuffins, Quantity: 1-1, Contains: 'ItemMuffin, ItemMuffin, ItemMuffin, ItemMuffin, ItemMuffin', $175
+    Cake, Quantity: 1, $250
+    BirthdayCake, Quantity: 1, Contains: 'ItemChocolateCake', $350
+    BoxOfChocolates, Quantity: 1, Contains: 'ItemChocolateBar, ItemChocolateBar, ItemChocolateBar, ItemChocolateBar, ItemChocolateBar', $300
   Selling:
-    Box of Spray Cans, Quantity: 1-3
-    Box of Battery Cells, Quantity: 1
-    Box of Battery Cells (Large), Quantity: 1, Range: Far
-    Angle Grinder, Quantity: 1
-    Drill, Quantity: 1
-    Labeller, Quantity: 1
-    Remote Detonator, Quantity: 1
-    Explosives, Quantity: 1-3
-    Welder, Quantity: 1
-    Welding Fuel, Quantity: 1
-    Wire Cutters, Quantity: 1
-    Screwdriver, Quantity: 1
-    Crowbar, Quantity: 1
-    Fire Extinguisher, Quantity: 1
-    ItemSteelSheets, Quantity: 20-50 (Bulk)
-    ItemPlasticSheets, Quantity: 20-50 (Bulk)
-    ItemGlassSheets, Quantity: 20-50 (Bulk)
-    ItemCableCoil, Quantity: 40-80 (Bulk)
-    ItemKitPipe, Quantity: 10-60 (Bulk)
-    ItemCableCoilHeavy, Quantity: 10-30 (Bulk), Range: Medium
+    Box of Spray Cans, Quantity: 1-3, $6
+    Box of Battery Cells, Quantity: 1, $40
+    Box of Battery Cells (Large), Quantity: 1, Range: Far, $90
+    Angle Grinder, Quantity: 1, $15
+    Drill, Quantity: 1, $15
+    Labeller, Quantity: 1, $15
+    Remote Detonator, Quantity: 1, $25
+    Explosives, Quantity: 1-3, $35
+    Welder, Quantity: 1, $15
+    Welding Fuel, Quantity: 1, $20
+    Wire Cutters, Quantity: 1, $6
+    Screwdriver, Quantity: 1, $6
+    Crowbar, Quantity: 1, $6
+    Fire Extinguisher, Quantity: 1, $200
+    ItemSteelSheets, Quantity: 20-50 (Bulk), $1
+    ItemPlasticSheets, Quantity: 20-50 (Bulk), $1
+    ItemGlassSheets, Quantity: 20-50 (Bulk), $3
+    ItemCableCoil, Quantity: 40-80 (Bulk), $.75
+    ItemKitPipe, Quantity: 10-60 (Bulk), $1
+    ItemCableCoilHeavy, Quantity: 10-30 (Bulk), Range: Medium, $1.75
 
 ConsumablesTrader: -1650376125
   Companies:
@@ -376,30 +376,30 @@ ConsumablesTrader: -1650376125
     Void Vending
     Meteor Munchies
   Buying:
-    HardsuitPackage
-    ShipOxygen
-    ShipWater
-    ShipFuel
-    ShipRepairPackage
+    Hardsuit Package, Quantity: 1, Contains: 'ItemHardsuitHelmet, ItemHardSuit', $550
+    Oxygen Replenishment, Quantity: 5-20 (Bulk), 100 Moles, Consists of: '100% Oxygen', 10-30c, $7.5
+    Water Replenishment, Quantity: 3-8 (Bulk), 250 Moles, Consists of: '100% Water', 10-25c, $75.0
+    Ship Refuel, Quantity: 5-10 (Bulk), 100 Moles, Consists of: '>=32% Oxygen, >=65% Volatiles', $20.0
+    Ship Repair Package, Quantity: 1, $450
   Selling:
-    ItemChocolateBar, Quantity: 1-3
-    ItemMilk, Quantity: 1-2 (Bulk)
-    ItemSoyOil, Quantity: 1
-    ItemEggCarton, Quantity: 1 (Bulk)
-    ItemFlour, Quantity: 1
-    ItemCocoaPowder, Quantity: 1-5
-    ItemSugar, Quantity: 1
-    Duct Tape, Quantity: 3-5
-    Battery Cell, Quantity: 1-5
-    Cereal Bar, Quantity: 2-6
-    Water Bottle, Quantity: 2-5
-    Gas Filter (CO2), Quantity: 5
-    Road Flares x 5, Quantity: 1-3
-    Box of Chemlights, Quantity: 1
-    Box of Spray Cans, Quantity: 1-3
-    Droid Repair Kit, Quantity: 1-3
-    Heal Pill, Quantity: 1-3
-    Sanitizer, Quantity: 1-3
+    ItemChocolateBar, Quantity: 1-3, $50
+    ItemMilk, Quantity: 1-2 (Bulk), $40
+    ItemSoyOil, Quantity: 1, $50
+    ItemEggCarton, Quantity: 1 (Bulk), $50
+    ItemFlour, Quantity: 1, $60
+    ItemCocoaPowder, Quantity: 1-5, $100
+    ItemSugar, Quantity: 1, $75
+    Duct Tape, Quantity: 3-5, $15
+    Battery Cell, Quantity: 1-5, $15
+    Cereal Bar, Quantity: 2-6, $15
+    Water Bottle, Quantity: 2-5, $10
+    Gas Filter (CO2), Quantity: 5, $20
+    Road Flares x 5, Quantity: 1-3, $10
+    Box of Chemlights, Quantity: 1, $15
+    Box of Spray Cans, Quantity: 1-3, $15
+    Droid Repair Kit, Quantity: 1-3, $200
+    Heal Pill, Quantity: 1-3, $200
+    Sanitizer, Quantity: 1-3, $100
 
 ApplianceTrader: -1590718013
   Companies:
@@ -412,29 +412,29 @@ ApplianceTrader: -1590718013
     Asteroid Appliances
     Meteor Mechanics
   Buying:
-    HardsuitPackage
-    ShipOxygen
-    ShipWater
-    ShipFoodPackage
-    ShipConsumablesPackage
-    PackageMuffins
-    ShipRepairPackage
-    ItemCableCoil, Quantity: 50-150
-    ItemElectronicParts, Quantity: 5-30
-    ItemIntegratedCircuit10, Quantity: 1-10
-    Gold Ingot, Quantity: 50-100 (Bulk), Range: Medium
-    Silver Ingot, Quantity: 50-100 (Bulk), Range: Medium
-    Electrum Ingot, Quantity: 100-200 (Bulk), Range: Far
+    Hardsuit Package, Quantity: 1, Contains: 'ItemHardsuitHelmet, ItemHardSuit', $550
+    Oxygen Replenishment, Quantity: 5-20 (Bulk), 100 Moles, Consists of: '100% Oxygen', 10-30c, $7.5
+    Water Replenishment, Quantity: 3-8 (Bulk), 250 Moles, Consists of: '100% Water', 10-25c, $75.0
+    Food Package, Quantity: 1-2, Contains: 'ItemTomatoSoup, ItemCornSoup, ItemBreadLoaf, ItemBreadLoaf, ItemMuffin, ItemWaterBottle', $145
+    Consumables Package, Quantity: 1, Contains: 'ItemDuctTape, ItemDuctTape, ItemGasFilterCarbonDioxide, ItemGasFilterCarbonDioxide, ItemPlasticSheets, ItemCableCoil', $145
+    PackageMuffins, Quantity: 1-1, Contains: 'ItemMuffin, ItemMuffin, ItemMuffin, ItemMuffin, ItemMuffin', $175
+    Ship Repair Package, Quantity: 1, $450
+    ItemCableCoil, Quantity: 50-150, $0.4
+    ItemElectronicParts, Quantity: 5-30, $1
+    ItemIntegratedCircuit10, Quantity: 1-10, $25
+    Gold Ingot, Quantity: 50-100 (Bulk), Range: Medium, $2.5
+    Silver Ingot, Quantity: 50-100 (Bulk), Range: Medium, $1
+    Electrum Ingot, Quantity: 100-200 (Bulk), Range: Far, $3
   Selling:
-    ApplianceMicrowave, Quantity: 1
-    ApplianceReagentProcessor, Quantity: 1
-    AppliancePackagingMachine, Quantity: 1
-    ApplianceTabletDock, Quantity: 1
-    ApplianceDeskLampLeft, Quantity: 1
-    ApplianceChemistryStation, Quantity: 1
-    ItemLaptop, Quantity: 1
-    ItemDynamicAirCon, Quantity: 1
-    ItemKitWeatherStation, Quantity: 1
-    ItemKitDynamicGenerator, Quantity: 1
-    ItemDynamicScrubber, Quantity: 1
-    Autolathe Construction Kit, Quantity: 1
+    ApplianceMicrowave, Quantity: 1, $25
+    ApplianceReagentProcessor, Quantity: 1, $75
+    AppliancePackagingMachine, Quantity: 1, $75
+    ApplianceTabletDock, Quantity: 1, $35
+    ApplianceDeskLampLeft, Quantity: 1, $45
+    ApplianceChemistryStation, Quantity: 1, $75
+    ItemLaptop, Quantity: 1, $50
+    ItemDynamicAirCon, Quantity: 1, $175
+    ItemKitWeatherStation, Quantity: 1, $245
+    ItemKitDynamicGenerator, Quantity: 1, $195
+    ItemDynamicScrubber, Quantity: 1, $195
+    Autolathe Construction Kit, Quantity: 1, $100

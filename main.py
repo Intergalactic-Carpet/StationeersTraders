@@ -6,8 +6,8 @@ with open(r"C:\Program Files (x86)\Steam\steamapps\common\Stationeers\rocketstat
 
 
 def crc(s):
-    hash = crc32(bytes(s, "UTF-8"))
-    return (hash ^ 0x80000000) - 0x80000000
+    hash_ = crc32(bytes(s, "UTF-8"))
+    return (hash_ ^ 0x80000000) - 0x80000000
 
 
 def print_rgb(text_, r, g, b):
@@ -38,6 +38,129 @@ def get_comparison(comparison):
 xml_dict = parse(data)
 traders = xml_dict['GameData']['Trader']
 
+temp_units = {'Celsius': 'c', 'Kelvin': 'K'}
+
+multi_items = {}
+for item in xml_dict['GameData']['Buy']:
+    text = str(item['@Id'])
+    if 'Name' in item:
+        text = str(item['Name']['@Value'])
+    if 'Required' in item:
+        if '@Value' in item['Required']:
+            text = text + f", Quantity: {item['Required']['@Value']}"
+        else:
+            text = text + f", Quantity: {item['Required']['@Min']}-{item['Required']['@Max']}"
+        if '@Bulk' in item['Required']:
+            text = text + f" (Bulk)"
+    if 'Item' in item:
+        if 'Item' in item['Item']:
+            text = text + ", Contains: '"
+            if type(item['Item']['Item']) is list:
+                for thing in item['Item']['Item']:
+                    text = text + f"{thing['@Id']}, "
+                text = text[:-2]
+            else:
+                text = text + item['Item']['Item']['@Id']
+            text = text + "'"
+    elif 'Gas' in item:
+        if 'Moles' in item:
+            text = text + f", {item['Moles']['@Value']} Moles"
+        text = text + ", Consists of: '"
+        if type(item['Gas']) is list:
+            for gas in item['Gas']:
+                text = text + f"{get_comparison(gas['@Compare'])}{gas['@Percent']}% {gas['@Type']}, "
+            text = text[:-2] + "'"
+        else:
+            text = text + f"{get_comparison(item['Gas']['@Compare'])}{item['Gas']['@Percent']}% {item['Gas']['@Type']}'"
+        if 'TemperatureRange' in item:
+            text = text + f", {item['TemperatureRange']['@Min']}-{item['TemperatureRange']['@Max']}"
+            text = text + f"{temp_units[item['TemperatureRange']['@Unit']]}"
+    if '@Value' in item:
+        text = text + f", ${item['@Value']}"
+    multi_items[item['@Id']] = text
+
+if type(xml_dict['GameData']['Sell']) is list:
+    for item in xml_dict['GameData']['Sell']:
+
+        text = str(item['@Id'])
+        if 'Name' in item:
+            text = str(item['Name']['@Value'])
+        if 'Required' in item:
+            if '@Value' in item['Required']:
+                text = text + f", Quantity: {item['Required']['@Value']}"
+            else:
+                text = text + f", Quantity: {item['Required']['@Min']}-{item['Required']['@Max']}"
+            if '@Bulk' in item['Required']:
+                text = text + f" (Bulk)"
+        if 'Item' in item:
+            if 'Item' in item['Item']:
+                text = text + ", Contains: '"
+                if type(item['Item']['Item']) is list:
+                    for thing in item['Item']['Item']:
+                        text = text + f"{thing['@Id']}, "
+                    text = text[:-2]
+                else:
+                    text = text + item['Item']['Item']['@Id']
+                text = text + "'"
+        elif 'Gas' in item:
+            if 'Moles' in item:
+                text = text + f", {item['Moles']['@Value']} Moles"
+            text = text + ", Consists of: '"
+            if type(item['Gas']) is list:
+                for gas in item['Gas']:
+                    text = text + f"{get_comparison(gas['@Compare'])}{gas['@Percent']}% {gas['@Type']}, "
+                text = text[:-2] + "'"
+            else:
+                text = text + f"{get_comparison(item['Gas']['@Compare'])}{item['Gas']['@Percent']}% {item['Gas']['@Type']}'"
+            if 'TemperatureRange' in item:
+                text = text + f", {item['TemperatureRange']['@Min']}-{item['TemperatureRange']['@Max']}"
+                text = text + f"{temp_units[item['TemperatureRange']['@Unit']]}"
+        if '@Value' in item:
+            text = text + f", ${item['@Value']}"
+        multi_items[item['@Id']] = text
+else:
+    item = xml_dict['GameData']['Sell']
+    text = str(item['@Id'])
+    if 'Name' in item:
+        text = str(item['Name']['@Value'])
+    if 'Stock' in item:
+        if '@Value' in item['Stock']:
+            text = text + f", Quantity: {item['Stock']['@Value']}"
+        else:
+            text = text + f", Quantity: {item['Stock']['@Min']}-{item['Stock']['@Max']}"
+        if '@Bulk' in item['Stock']:
+            text = text + f" (Bulk)"
+    if 'Item' in item:
+        if 'Item' in item['Item']:
+            text = text + ", Contains: '"
+            if type(item['Item']['Item']) is list:
+                for thing in item['Item']['Item']:
+                    text = text + f"{thing['@Id']}, "
+                text = text[:-2]
+            else:
+                text = text + item['Item']['Item']['@Id']
+            text = text + "'"
+        else:
+            text = text + f", Consists of: {item['Item']['Quantity']['@Value']} x {item['Item']['@Id']}"
+    elif 'Gas' in item:
+        if 'Moles' in item:
+            text = text + f", {item['Moles']['@Value']} Moles"
+        text = text + ", Consists of: '"
+        if type(item['Gas']) is list:
+            for gas in item['Gas']:
+                text = text + f"{get_comparison(gas['@Compare'])}{gas['@Percent']}% {gas['@Type']}, "
+            text = text[:-2] + "'"
+        else:
+            text = text + f"{get_comparison(item['Gas']['@Compare'])}{item['Gas']['@Percent']}% {item['Gas']['@Type']}'"
+        if 'TemperatureRange' in item:
+            text = text + f", {item['TemperatureRange']['@Min']}-{item['TemperatureRange']['@Max']}"
+            text = text + f"{temp_units[item['TemperatureRange']['@Unit']]}"
+    if '@Value' in item:
+        text = text + f", ${item['@Value']}"
+
+    multi_items[item['@Id']] = text
+
+
 for trader in traders:
     print()
     print(f'{trader["@Id"]}: {crc(trader["@Id"])}')
@@ -54,6 +177,10 @@ for trader in traders:
         text = goods
         if list(goods.keys()) == ['@Id']:
             text = goods['@Id']
+            if text in multi_items:
+                text = multi_items[text]
+            else:
+                warn(f"No definition for reference '{text}'")
         elif 'Gas' in goods:
             text = goods["Name"]['@Value']
             if '@Min' in goods['Required'] and '@Max' in goods['Required']:
@@ -92,6 +219,8 @@ for trader in traders:
                     text = text + ' (Bulk)'
             if '@Tier' in goods:
                 text = text + f", Range: {goods['@Tier']}"
+        if '@Value' in goods:
+            text = text + f", ${goods['@Value']}"
         print(f"{' '*4}{text}")
 
     print(f"{' ' * 2}Selling:")
@@ -151,4 +280,6 @@ for trader in traders:
                     text = text + ' (Bulk)'
             if '@Tier' in goods:
                 text = text + f", Range: {goods['@Tier']}"
+        if '@Value' in goods:
+            text = text + f", ${goods['@Value']}"
         print(f"{' ' * 4}{text}")
